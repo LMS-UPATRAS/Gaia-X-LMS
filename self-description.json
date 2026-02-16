@@ -1,21 +1,72 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1"
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "https://lms-upatras.github.io/credentials/EL998219694",
   "type": [
-    "VerifiableCredential",
-    "LegalRegistrationNumberCredential"
+    "VerifiablePresentation"
   ],
-  "issuer": "did:web:delta-dao.com",
-  "issuanceDate": "2026-02-13T14:17:59Z",
-  "credentialSubject": {
-    "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-    "vatId": "EL998219694"
-  },
+  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#self-description",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "LegalPerson"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#legal-person",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "issuanceDate": "2026-02-16T10:51:41Z",
+      "credentialSubject": {
+        "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+        "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
+        "gx:headquarterAddress": {
+          "gx:countryCode": "EL"
+        },
+        "gx:legalRegistrationNumber": {
+          "gx:vatID": "EL998219694"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-02-16T10:51:41Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..j9TpQLai5Ai1HrdSGsRcR_fM8f1z0ylHArIUYc0oWfxXez0syKdfzQdkee0mJvHUAK3Dxv1YtHK5bBp1FOgFAQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+      ],
+      "id": "https://lms-upatras.github.io/credentials/EL998219694",
+      "type": [
+        "VerifiableCredential",
+        "LegalRegistrationNumberCredential"
+      ],
+      "issuer": "did:web:delta-dao.com",
+      "issuanceDate": "2026-02-16T10:51:41Z",
+      "credentialSubject": {
+        "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+        "vatId": "EL998219694"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzEyMzkwOTAxMzcsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTgyMTk2OTQiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0xNlQxMDo1MTozMC4xMzcrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJneDp2YXRJRCI6IkVMOTk4MjE5Njk0IiwiZ3g6Y291bnRyeUNvZGUiOiJFTCJ9LCJldmlkZW5jZSI6eyJneDpldmlkZW5jZU9mIjoiZ3g6VmF0SUQiLCJneDpldmlkZW5jZVVSTCI6Imh0dHA6Ly9lYy5ldXJvcGEuZXUvdGF4YXRpb25fY3VzdG9tcy92aWVzL3NlcnZpY2VzL2NoZWNrVmF0U2VydmljZSIsImd4OmV4ZWN1dGlvbkRhdGUiOiIyMDI2LTAyLTE2VDEwOjUxOjMwLjEzNyswMDowMCJ9fQ.H1vJcW0z1bCKf3qfsndHfwCY6dHnZXVAorI4NzITSFJh7p7Q88FWdeZev0V5BqX2lztoiWwJhvzyZsHdF19kLomaCtwUhN4rXFz8_z9UnZLDDp2LSAlrv58KnbudOzbYlZg-Mff2FPiH3z3-w4QWFwOPWx2cPLDl13VsqG3_RjVVuTw0dvXA5iLlDYhiSFvcd5jYMn3Uvj3gQZvKNAm1-JOa-AnE0ghT8LG3kE148F8i2tivb0QEKNKmkS7010XHJlmcV9L8Pn0hzh0-rg-Hao3y1pTOgWg29rw3B2fo0JEqZ6fTI98fNixEP2Brr8sXmr2bhdqf9VO6LqnV0ecCSla3fyv7dADRyU8I6-ICXC00gOHEzVmHzVxtB32cpRefiOkSZ0oBXLhFIIWwUma0M31ItbNZOV7XtckVy6Q8otLJUtUfzIMqbKvu64G2GQrla5QfkcbS1bJeJ584x-6k-FP5ZraV9j8Kd7nGZRkratfGCaVzPLjQnV4Ws1t4kQaCzm8-cjeXBUdkzmFOl1M40DrTc5VF87OhEfy7DGSIpg3lE5SlVhJN_X5ZQ2rpTNTN_WlBAJimtQ6W18lU0OGEAYWM5EdpZ8u7RGi9In-ZZfUPhL8OhaBxfwmwy3tkd9q7ooQXjG-ITVj8b7FD2sEVQ_9PRsqGXfgXkrtFV7EaQT0"
+      },
+      "jwt": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzEyMzkwOTAxMzcsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTgyMTk2OTQiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0xNlQxMDo1MTozMC4xMzcrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJneDp2YXRJRCI6IkVMOTk4MjE5Njk0IiwiZ3g6Y291bnRyeUNvZGUiOiJFTCJ9LCJldmlkZW5jZSI6eyJneDpldmlkZW5jZU9mIjoiZ3g6VmF0SUQiLCJneDpldmlkZW5jZVVSTCI6Imh0dHA6Ly9lYy5ldXJvcGEuZXUvdGF4YXRpb25fY3VzdG9tcy92aWVzL3NlcnZpY2VzL2NoZWNrVmF0U2VydmljZSIsImd4OmV4ZWN1dGlvbkRhdGUiOiIyMDI2LTAyLTE2VDEwOjUxOjMwLjEzNyswMDowMCJ9fQ.H1vJcW0z1bCKf3qfsndHfwCY6dHnZXVAorI4NzITSFJh7p7Q88FWdeZev0V5BqX2lztoiWwJhvzyZsHdF19kLomaCtwUhN4rXFz8_z9UnZLDDp2LSAlrv58KnbudOzbYlZg-Mff2FPiH3z3-w4QWFwOPWx2cPLDl13VsqG3_RjVVuTw0dvXA5iLlDYhiSFvcd5jYMn3Uvj3gQZvKNAm1-JOa-AnE0ghT8LG3kE148F8i2tivb0QEKNKmkS7010XHJlmcV9L8Pn0hzh0-rg-Hao3y1pTOgWg29rw3B2fo0JEqZ6fTI98fNixEP2Brr8sXmr2bhdqf9VO6LqnV0ecCSla3fyv7dADRyU8I6-ICXC00gOHEzVmHzVxtB32cpRefiOkSZ0oBXLhFIIWwUma0M31ItbNZOV7XtckVy6Q8otLJUtUfzIMqbKvu64G2GQrla5QfkcbS1bJeJ584x-6k-FP5ZraV9j8Kd7nGZRkratfGCaVzPLjQnV4Ws1t4kQaCzm8-cjeXBUdkzmFOl1M40DrTc5VF87OhEfy7DGSIpg3lE5SlVhJN_X5ZQ2rpTNTN_WlBAJimtQ6W18lU0OGEAYWM5EdpZ8u7RGi9In-ZZfUPhL8OhaBxfwmwy3tkd9q7ooQXjG-ITVj8b7FD2sEVQ_9PRsqGXfgXkrtFV7EaQT0"
+    }
+  ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "jws": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzA5OTIyNzc4OTIsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTgyMTk2OTQiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0xM1QxNDoxNzo1Ny44OTIrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJneDp2YXRJRCI6IkVMOTk4MjE5Njk0IiwiZ3g6Y291bnRyeUNvZGUiOiJFTCJ9LCJldmlkZW5jZSI6eyJneDpldmlkZW5jZU9mIjoiZ3g6VmF0SUQiLCJneDpldmlkZW5jZVVSTCI6Imh0dHA6Ly9lYy5ldXJvcGEuZXUvdGF4YXRpb25fY3VzdG9tcy92aWVzL3NlcnZpY2VzL2NoZWNrVmF0U2VydmljZSIsImd4OmV4ZWN1dGlvbkRhdGUiOiIyMDI2LTAyLTEzVDE0OjE3OjU3Ljg5MiswMDowMCJ9fQ.tdjYOx8Werv_gG55AHnExObey5qRfJngNxk8O37VKt7irzYlwqHvyS-0RswusLiU8QoV4daCmuMwKfIb6MWujainvg32KEX9YkkooS6MM_wl719_dhdFQDejD3yEMpVP2RbFNhaHnQZFJRXGfNu6fbt9_6HybUKfBIVswJ7SO9ark73TOH6jzEefzd77MWST8ODQtCj4b8KxwpiI3iLPdAohO-5YyLrA-G5D1QQKQpxtHfgQ_NJZ33ynDhUfkzKbcGSvbsAjAaHfz05T04iJNqDE47YeS8iwBTmQhbmUQwJsqKfTigYlMfAhyO_-97IyVUB-LpIrlwzw2WWq1tDzsliUJWSQLbdLk6a7mW5WLlw4hEtMQ7kf_MtJ0ZzcRm8Cp47k8JXW9Zgys4ngGP9EDpDbx8YJUC2pyetMh47QPXD5aYX8dwK6YPeh6xemJ3Crog1BhwU0KC-9tE2uWkg4Eu_ncz5y51gJ_LiW3r9lMym1qMko00vV4EZ71_iBI0BYGPeVjnWMQzaWjGIpTey_bQvqzns9eUzd62b3knFOdqHHfjoXnJx-0iN5sdoZ55tmdrn8QMG3E96WUePPEfij3xYrOkArz3mV6dBoaBlGrgBDeJlXXHolj6m3xXGY643rRqpk6I5-UpkwkqwdaM9JHP04krj-zcdnvaljttDUl70"
-  },
-  "jwt": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzA5OTIyNzc4OTIsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTgyMTk2OTQiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0xM1QxNDoxNzo1Ny44OTIrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJneDp2YXRJRCI6IkVMOTk4MjE5Njk0IiwiZ3g6Y291bnRyeUNvZGUiOiJFTCJ9LCJldmlkZW5jZSI6eyJneDpldmlkZW5jZU9mIjoiZ3g6VmF0SUQiLCJneDpldmlkZW5jZVVSTCI6Imh0dHA6Ly9lYy5ldXJvcGEuZXUvdGF4YXRpb25fY3VzdG9tcy92aWVzL3NlcnZpY2VzL2NoZWNrVmF0U2VydmljZSIsImd4OmV4ZWN1dGlvbkRhdGUiOiIyMDI2LTAyLTEzVDE0OjE3OjU3Ljg5MiswMDowMCJ9fQ.tdjYOx8Werv_gG55AHnExObey5qRfJngNxk8O37VKt7irzYlwqHvyS-0RswusLiU8QoV4daCmuMwKfIb6MWujainvg32KEX9YkkooS6MM_wl719_dhdFQDejD3yEMpVP2RbFNhaHnQZFJRXGfNu6fbt9_6HybUKfBIVswJ7SO9ark73TOH6jzEefzd77MWST8ODQtCj4b8KxwpiI3iLPdAohO-5YyLrA-G5D1QQKQpxtHfgQ_NJZ33ynDhUfkzKbcGSvbsAjAaHfz05T04iJNqDE47YeS8iwBTmQhbmUQwJsqKfTigYlMfAhyO_-97IyVUB-LpIrlwzw2WWq1tDzsliUJWSQLbdLk6a7mW5WLlw4hEtMQ7kf_MtJ0ZzcRm8Cp47k8JXW9Zgys4ngGP9EDpDbx8YJUC2pyetMh47QPXD5aYX8dwK6YPeh6xemJ3Crog1BhwU0KC-9tE2uWkg4Eu_ncz5y51gJ_LiW3r9lMym1qMko00vV4EZ71_iBI0BYGPeVjnWMQzaWjGIpTey_bQvqzns9eUzd62b3knFOdqHHfjoXnJx-0iN5sdoZ55tmdrn8QMG3E96WUePPEfij3xYrOkArz3mV6dBoaBlGrgBDeJlXXHolj6m3xXGY643rRqpk6I5-UpkwkqwdaM9JHP04krj-zcdnvaljttDUl70"
+    "created": "2026-02-16T10:51:41Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "authentication",
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..R1SmvpkMo1tzxaI0l3JVFDmQ1TH7o3baPsMvm8EyAfnOWjAGOPyYyQyWEPxG8CiCkciWVe3fdJeFFZisRNpXDg"
+  }
 }
