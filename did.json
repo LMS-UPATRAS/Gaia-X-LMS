@@ -3,23 +3,23 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "id": "did:web:bvassilo.github.io:Gaia-X-LMS",
   "verificationMethod": [
     {
-      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+      "id": "did:web:bvassilo.github.io:Gaia-X-LMS#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "controller": "did:web:bvassilo.github.io:Gaia-X-LMS",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "SgEJgC_nU-ZBPAAGEsZkrt47-QeM6hlwxPIt3Hhtu6U"
+        "x": "m1RoBsPAsC8aWxun6nJVvFHgFJuNCHvfEd62j_WcuDY"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1"
+    "did:web:bvassilo.github.io:Gaia-X-LMS#key-1"
   ],
   "authentication": [
-    "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1"
+    "did:web:bvassilo.github.io:Gaia-X-LMS#key-1"
   ]
 }
