@@ -13,15 +13,15 @@
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+        "https://w3id.org/gaia-x/development#"
       ],
       "type": [
         "VerifiableCredential",
-        "LegalPerson"
+        "gx:LegalPerson"
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#legal-person",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-03-09T23:14:51Z",
+      "issuanceDate": "2026-03-09T23:19:13Z",
       "credentialSubject": {
         "type": "gx:LegalPerson",
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
@@ -35,18 +35,18 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:14:51Z",
+        "created": "2026-03-09T23:19:13Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..VHtp4QfuMUrfry-XkPHYuoe7OGZamb7KkBdqZK--Ohi92YWBtlmiklZq_5-Xg2XrGh8ON6Gi6GXAfOUpbof3Ag"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..ASKP0PPf0cZDGVGg7z0la_BU4QAtIcK3aQxeAQQbANL4TZchzwYgDd5MvavdkOzCba6XHXILQ1OXIk9a_x89Dw"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-09T23:14:51Z",
+    "created": "2026-03-09T23:19:13Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..e00ealCl_xpCO8gb8yIxtoA26VkAC_c401gcLz4SHAnSfDsvwqynnCm-2nuJTffyBc8HnEMNXh0ywtYQTqd5Dg"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..QngAqUQQgBZigljUDCC3CK3W9kp6iJtFAjvRT4VbsIm4osaf2hyPkKfpGHbifWTz5Di0iWxYhpnjHbEVQni9Dg"
   }
 }
