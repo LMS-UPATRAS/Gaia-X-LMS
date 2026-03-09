@@ -21,41 +21,45 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#legal-person",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-03-09T23:26:14Z",
+      "issuanceDate": "2026-03-09T23:30:20Z",
       "credentialSubject": {
         "type": "gx:LegalPerson",
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
         "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
         "gx:headquarterAddress": {
           "gx:countryCode": "EL",
+          "gx:countrySubdivisionCode": "EL-I",
           "gx:streetAddress": "\u03a0\u0391\u039d\u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0399\u039f\u03a5\u03a0\u039f\u039b\u0397 \u03a1\u0399\u039f\u03a5 \u03a0\u0391\u03a4\u03a1\u03a9\u039d 0",
           "gx:postalCode": "26500",
           "gx:locality": "\u03a1\u0399\u039f \u03a0\u0391\u03a4\u03a1\u03a9\u039d"
         },
         "gx:legalAddress": {
           "gx:countryCode": "EL",
+          "gx:countrySubdivisionCode": "EL-I",
           "gx:streetAddress": "\u03a0\u0391\u039d\u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0399\u039f\u03a5\u03a0\u039f\u039b\u0397 \u03a1\u0399\u039f\u03a5 \u03a0\u0391\u03a4\u03a1\u03a9\u039d 0",
           "gx:postalCode": "26500",
           "gx:locality": "\u03a1\u0399\u039f \u03a0\u0391\u03a4\u03a1\u03a9\u039d"
         },
-        "gx:legalRegistrationNumber": {
-          "gx:vatID": "EL998219694"
-        }
+        "gx:legalRegistrationNumber": [
+          {
+            "gx:vatID": "EL998219694"
+          }
+        ]
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:26:14Z",
+        "created": "2026-03-09T23:30:20Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..3cdAgVWLBSy9IGHGyfw2GpUSZSuOVVu1l8Po1kWmaMcD9d8wlb-A3q8qrWlkKjkgSg6eGU4KfXvoM3_JYa93DA"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..q20h69KuQNw6cQJ8hygvk6MZ8JgK0Hr1XdNuS5qgqnd_EjMzzdVf0JKmKSJQRvSeInQ8F6JdgIZcM1FhNwxkDg"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-09T23:26:14Z",
+    "created": "2026-03-09T23:30:20Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..YpraUx48QdrDIVlpBCo1wqa0HNhoTox7iO2_DoUipzyl4h8uzYb-5hRdKcoqgG8MUqhkiGT7bykfHKqEh0V3CA"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Xxv77i5bK16nvj6yPZDWQPWmy_8io7a56rN2tV1njuZDuPBv2xxUJCBEm6PsnAHrwK_LjY8a8lM1GKnJD1XSCw"
   }
 }
