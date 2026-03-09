@@ -21,8 +21,9 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#legal-person",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-03-09T22:31:18Z",
+      "issuanceDate": "2026-03-09T23:14:51Z",
       "credentialSubject": {
+        "type": "gx:LegalPerson",
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
         "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
         "gx:headquarterAddress": {
@@ -34,18 +35,18 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T22:31:18Z",
+        "created": "2026-03-09T23:14:51Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..cH_BS5SU7TdqRVK2d5htm47wcPQPst9l9P-JFwagtXFLMzKrK9RrkYkMhC84Vts9egL9Vn2K40KyiHncYQY0Cw"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..VHtp4QfuMUrfry-XkPHYuoe7OGZamb7KkBdqZK--Ohi92YWBtlmiklZq_5-Xg2XrGh8ON6Gi6GXAfOUpbof3Ag"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-09T22:31:18Z",
+    "created": "2026-03-09T23:14:51Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..EY282a2eog-M4ykeeEQr14e07HG4adJzhq5zEuxQ1zHvz_7mYhDr_LXwLalqMgRW_1PCi4PDebDjyGtL--TRAg"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..e00ealCl_xpCO8gb8yIxtoA26VkAC_c401gcLz4SHAnSfDsvwqynnCm-2nuJTffyBc8HnEMNXh0ywtYQTqd5Dg"
   }
 }
