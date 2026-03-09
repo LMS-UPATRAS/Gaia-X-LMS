@@ -1,13 +1,13 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
+    "https://www.w3.org/ns/credentials/v2"
   ],
   "type": [
     "VerifiablePresentation"
   ],
-  "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS#self-description",
-  "holder": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS",
+  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#presentation-b3dd2e0b",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-LMS",
   "verifiableCredential": [
     {
       "@context": [
@@ -21,7 +21,7 @@
       ],
       "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS#legal-person",
       "issuer": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-03-05T16:08:17Z",
+      "issuanceDate": "2026-03-06T10:37:28Z",
       "credentialSubject": {
         "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS",
         "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
@@ -34,18 +34,23 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-05T16:08:17Z",
+        "created": "2026-03-06T10:37:28Z",
         "verificationMethod": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Hlhpui7oA30BBX4O4eyQLXy8cnMbsDmjKdTM30795ObgnKEFCnFY1UwtYRkEkOs4zDlqK0zkYBIHDOqUJ0TSDw"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..QpjkymXpDQIKYxQjc7qg4HgiU-iZ3-LivjHam-2w1Mz-1I27SUMwstmiMiNPpF_YqrVdpsKmUUZcq1bgyRw2Cg"
       }
+    },
+    {
+      "type": "EnvelopedVerifiableCredential",
+      "id": "urn:uuid:00d2bd48-c10b-494c-a3ef-93789c6bac01",
+      "digestMultibase": "u123456789",
+      "jwt": "eyJhbGciOiAiRWREU0EiLCAidHlwIjogInZjK2p3dCIsICJraWQiOiAiZGlkOndlYjpMTVMtVVBBVFJBUy5naXRodWIuaW86R2FpYS1YLUxNUyNrZXktMSJ9.eyJAY29udGV4dCI6IFsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCAiaHR0cHM6Ly9yZWdpc3RyeS5sYWIuZ2FpYS14LmV1L2RldmVsb3BtZW50L2FwaS90cnVzdGVkLXNoYXBlLXJlZ2lzdHJ5L3YxL3NoYXBlcy9qc29ubGQvdHJ1c3RmcmFtZXdvcmsjIl0sICJ0eXBlIjogWyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsICJUZXJtc0FuZENvbmRpdGlvbnMiXSwgImlkIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjZ2FpYXgtdGVybXMiLCAiaXNzdWVyIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCAiaXNzdWFuY2VEYXRlIjogIjIwMjYtMDMtMDZUMTA6Mzc6NTBaIiwgImNyZWRlbnRpYWxTdWJqZWN0IjogeyJpZCI6ICJkaWQ6d2ViOkxNUy1VUEFUUkFTLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2dhaWF4LXRlcm1zIiwgImd4OnRlcm1zQW5kQ29uZGl0aW9ucyI6ICJUaGUgUEFSVElDSVBBTlQgc2lnbmluZyB0aGUgU2VsZi1EZXNjcmlwdGlvbiBhZ3JlZXMgYXMgZm9sbG93czogLi4uIChBY2NlcHRhbmNlIG9mIFRydXN0IEZyYW1ld29yayAyNC4xMSkifX0.bf2MdcZdqKQGolq8rimTMJJJ_tXkI4dlvCqLLOrU7p-5-dTGKUYmXdhwcrYnFGbisxlXkNYkU3wQlarIN6EIBQ"
+    },
+    {
+      "type": "EnvelopedVerifiableCredential",
+      "id": "urn:uuid:c97354cd-5ca8-4e60-b04a-01181af2f15b",
+      "digestMultibase": "u123456789",
+      "jwt": "eyJhbGciOiAiRWREU0EiLCAidHlwIjogInZjK2p3dCIsICJraWQiOiAiZGlkOndlYjpMTVMtVVBBVFJBUy5naXRodWIuaW86R2FpYS1YLUxNUyNrZXktMSJ9.eyJAY29udGV4dCI6IFsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiLCAiaHR0cHM6Ly9yZWdpc3RyeS5sYWIuZ2FpYS14LmV1L2RldmVsb3BtZW50L2FwaS90cnVzdGVkLXNoYXBlLXJlZ2lzdHJ5L3YxL3NoYXBlcy9qc29ubGQvdHJ1c3RmcmFtZXdvcmsjIl0sICJ0eXBlIjogWyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsICJTZXJ2aWNlT2ZmZXJpbmciXSwgImlkIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjc2VydmljZS1mMmM1M2I5OCIsICJpc3N1ZXIiOiAiZGlkOndlYjpMTVMtVVBBVFJBUy5naXRodWIuaW86R2FpYS1YLUxNUyIsICJpc3N1YW5jZURhdGUiOiAiMjAyNi0wMy0wNlQxMDozNzo1MFoiLCAiY3JlZGVudGlhbFN1YmplY3QiOiB7ImlkIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjc2VydmljZS1mMmM1M2I5OCIsICJneDpwcm92aWRlZEJ5IjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCAiZ3g6bmFtZSI6ICJMTVMgQ29ubmVjdG9yIiwgImd4OmRlc2NyaXB0aW9uIjogIk9mZmljaWFsIExNUyBHYWlhLVggQ29ubmVjdG9yIE5vZGUiLCAiZ3g6dGVybXNBbmRDb25kaXRpb25zIjogW3siZ3g6VVJMIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjZ2FpYXgtdGVybXMiLCAiZ3g6aGFzaCI6ICJwbGFjZWhvbGRlci1oYXNoLW9mLWdhaWF4LXRlcm1zIn1dLCAiZ3g6ZGF0YUFjY291bnRFeHBvcnQiOiB7Imd4OnJlcXVlc3RUeXBlIjogImVtYWlsIiwgImd4OmFjY2Vzc1R5cGUiOiAiZGlnaXRhbCIsICJneDpmb3JtYXRUeXBlIjogImFwcGxpY2F0aW9uL2pzb24ifSwgImd4OmFnZ3JlZ2F0aW9uT2YiOiBbeyJpZCI6ICJkaWQ6d2ViOkxNUy1VUEFUUkFTLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI3Jlc291cmNlLTBlYzBlNDBkIiwgInR5cGUiOiAiZ3g6U29mdHdhcmVSZXNvdXJjZSIsICJneDpuYW1lIjogIkxNUyBDb25uZWN0b3IgKFNvZnR3YXJlKSIsICJneDpkZXNjcmlwdGlvbiI6ICJPZmZpY2lhbCBMTVMgR2FpYS1YIENvbm5lY3RvciBOb2RlIiwgImd4OnByb2R1Y2VkQnkiOiAiZGlkOndlYjpMTVMtVVBBVFJBUy5naXRodWIuaW86R2FpYS1YLUxNUyIsICJneDpjb3B5cmlnaHRPd25lZEJ5IjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCAiZ3g6bGljZW5zZSI6ICJNSVQiLCAiZ3g6c29mdHdhcmVWZXJzaW9uIjogIjEuMC4wIiwgImd4OmZvcm1hdFR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiJ9LCB7ImlkIjogImRpZDp3ZWI6TE1TLVVQQVRSQVMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbm9kZS00OTFlOTlhNyIsICJ0eXBlIjogImd4Ok5vZGUiLCAiZ3g6bmFtZSI6ICJMTVMgQ29ubmVjdG9yIChOb2RlKSIsICJneDpkZXNjcmlwdGlvbiI6ICJJbmZyYXN0cnVjdHVyZSBub2RlIGZvciBMTVMgQ29ubmVjdG9yIiwgImd4OnByb3ZpZGVkQnkiOiAiZGlkOndlYjpMTVMtVVBBVFJBUy5naXRodWIuaW86R2FpYS1YLUxNUyIsICJneDplbmRwb2ludCI6ICJodHRwOi8vbG9jYWxob3N0OjE5MTkzL3Byb3RvY29sIn1dfX0.vBfsryMiFCepcLZjo4a85qHdcPZ38rSqzHiuvutTUN66-v29YmXY449kN8XiDhdvCd_G4mIhrJIBluPuzAvrBw"
     }
-  ],
-  "proof": {
-    "type": "JsonWebSignature2020",
-    "created": "2026-03-05T16:08:17Z",
-    "verificationMethod": "did:web:LMS-UPATRAS.github.io:Gaia-X-LMS#key-1",
-    "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..DUVljR0zcljXbFKQ-Y3bqywjBKH-nW_XD0eNRvMGC-_lEFfNMondzjTkMGp3nDvJ_k67xIOi9JlWGGxaFMB9BQ"
-  }
-}
+  ]
+}
