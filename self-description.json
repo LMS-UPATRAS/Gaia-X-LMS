@@ -21,7 +21,7 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-03-09T23:59:39Z",
+      "issuanceDate": "2026-03-10T11:07:17Z",
       "credentialSubject": {
         "type": "gx:LegalPerson",
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
@@ -42,24 +42,26 @@
         },
         "gx:legalRegistrationNumber": [
           {
+            "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#registration",
+            "type": "gx:legalRegistrationNumber",
             "gx:vatID": "EL998219694"
           }
         ]
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:59:39Z",
+        "created": "2026-03-10T11:07:17Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..4P4OWVqPHzHbr9YxTNmRt6OpuUfr4mBgmsfzs5nHt8pUKV1CqDp0jHvQOW6mlkZuX57D4u4gGCUajRlvLAn9AQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..3DuFfdjX-6g-mgYsm-35FsYoBwIbhGBqvDOROSuXUsA5G9RAIveHNUpAGFV7-LrokugzCZvpCxfXu94kom93AA"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-09T23:59:39Z",
+    "created": "2026-03-10T11:07:17Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Mw02E3swBrURRFC1V2ZkouAx4kcj6xHcNx_IJmIMfVB3EflzqZrk9-NoN35Fg4ZeWnyRmcIiWoa4g4tu97QDAw"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..PyinBM2H27_DBGNVCl61y0TKCpsFalOAmbIMmqCWhiB114n41vaXj0OkzcBkxth8F6EYoT7lAMNiDj9uRC_1Dg"
   }
 }
