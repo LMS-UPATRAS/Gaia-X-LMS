@@ -10,7 +10,7 @@
   "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
   "type": "VerifiableCredential",
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-12T16:31:10Z",
+  "issuanceDate": "2026-03-12T16:34:55Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
     "type": "gx:LegalPerson",
@@ -28,9 +28,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-12T16:31:10Z",
+    "created": "2026-03-12T16:34:55Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsInR5cCI6Impvc2UiLCJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIn0..CT_9UIIBkWRmPVHgYFINJJpUdNflyXeM7K65P75xnna3Cg6o7zH7w3380tUahNrvOnWE9OksnSQdbg8H9RGgAg"
+    "jws": "eyJhbGciOiJFZERTQSIsInR5cCI6Impvc2UiLCJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIn0..gbxuWpc6PpQ7Az4GWDERSgPJU5iMeic-2kXJpWpo8tmYomyrRny8urkE05XstsasJwp-w4wkuwZwZ5NhG6pIAg"
   }
 }
