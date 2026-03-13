@@ -10,7 +10,7 @@
   "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
   "type": "VerifiableCredential",
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-13T08:46:02Z",
+  "issuanceDate": "2026-03-13T11:18:17Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
     "type": "gx:LegalPerson",
@@ -18,19 +18,21 @@
     "gx:legalRegistrationNumber": "EL998219694",
     "gx:registrationNumber": "EL998219694",
     "gx:headquarterAddress": {
-      "type": "vcard:Address",
-      "vcard:country-name": "GR"
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63"
     },
     "gx:legalAddress": {
-      "type": "vcard:Address",
-      "vcard:country-name": "GR"
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63"
     }
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-13T08:46:02Z",
+    "created": "2026-03-13T11:18:17Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsInR5cCI6Impvc2UiLCJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIn0..BoiARXWzvcmM-3kQURwonfDNISc9URHiu52NRlDJNLbJeMiJZAc_Qat42JlpT05lcG4uZwrJcoR2z28kaajkAQ"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Laj7xL6WM-6Z_awv7Fye-PM_8cxVlLkaYS6Ae1B4DNFCR7q_Tqs7IPaGR_apysrbcoZR5dvvSF2dcGXP51EeAQ"
   }
 }
