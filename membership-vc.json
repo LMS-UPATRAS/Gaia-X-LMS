@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "urn:uuid:ebd83bf7-d2cd-4e97-95d5-77e29ee4f680",
+  "type": [
+    "VerifiableCredential",
+    "MembershipCredential"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "issuanceDate": "2026-03-18T07:47:45Z",
+  "expirationDate": "2027-03-18T07:47:45Z",
+  "credentialSubject": {
+    "id": "did:web:consumer-identityhub:7083:consumer",
+    "memberOf": "dataspace-1",
+    "roles": [
+      "consumer"
+    ]
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-03-18T07:47:45Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..a7Z26sIAKHAVVqvGTHRqG3pXa6h3KC3cEyUB7wBKaGtP3RCTmulzM-Iy-lvA93Wo1iP8LxgAbp8fCEKTDqEJSKt6SapVRAs2wKAqDQTaZnYZWoDPLSugsTuV3CbvI_un1malSbAcxViSJKrzE9dj-QTdjhB4v16U8ZO3ycv49SM9-ycBCCAulmKeAil_dB2v4h6NPmebbxgZIKt4Lzp9no5ccdVklqsH2wFA1sMyR9vmzoeujgNysdf1ObqccRHgUTK2pyxVK-zJ-DQWxqcRfibZBWKHgD53eW499pJXo2YWCAG290WM_GxYAO7tuWb7lQ9ITywG7saHczmTyiltChu7k6jUzbz6QFjpT7uOrGUi0dWKwQJWcWEd8sMk42LlY9KidXdSIIQt058eNlU98wEmfgn9751R7F9Mr-XtMjZWucmBzj328xlKyU6WZqQT67US0yvo1Qw-WFEZBVbLL3b4tvmvYc_pKjrh45fWYra-IdZXHVfvEKi9sbXQ5NzarRHjI02JBOImaQN7Fw2sLoHyfcxHHWAVnJokVtvv7aztjeJ9CmPLv_hKkOd__Jts-3q32YoQGwoEHF18_LTJbZ9JUK2Ym4Nho-jF-twbkqESAv-WOEMV-__Xfmi71rSAoVTSc3Kapnp6qfDK3NnD2hqrwP-lLbz4PPQeVi3Pcec"
+  }
+}
