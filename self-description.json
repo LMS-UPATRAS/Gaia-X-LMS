@@ -10,7 +10,7 @@
   "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
   "type": "VerifiableCredential",
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-26T08:21:05Z",
+  "issuanceDate": "2026-03-26T08:33:31Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
     "type": "gx:LegalPerson",
@@ -31,9 +31,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-26T08:21:05Z",
+    "created": "2026-03-26T08:33:31Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..jyLFJ0ckVdX5ie7nn09pQenOLaWxD7AFss7_UU8UI6T26CbwqI-5g5gYhqqPUCKPxeqEiMp9JiNmlVfQRXLt7PUdeh2Khld4ghgR9eU7bH_Dj6i6CGTXaNYBMHTq1BPMkniyCu_oj2sm8GAAFBkFvU2UnJR0ehVPbCwOYAJpM0uAMUGYlYP-Nm44S85_-5oMQhAPZ2Ut4p69Wsg-f6nkj7yar_fWahv5QqGKSy7Sg5LMwNgOADns-5XRZi1JnFSMyR3saq71-ueZNOvlf8GXXQdbPoUiQwtftR34_rnYyzgh93B4C8yDfHSnNKHf2CFt6XkqbdOVM3zcvlj1w6jelPIBRUhwOx9JeOzptNS-ZLWWxQJDhh6mclbXryp6EAJ44Mz4jEJ8PJI6cvoTNizebmasg8aiUPU4LwmDLrqrUewIdoE8p8elEm5taD5E6TMUCLPEb7mOt6HeYcqGw43BZcmoOJCaaoc7707uXPLV0e1XPJ_w137hHGB04b5NzmHOWWfqs-xQ5Ld1HWsR5Ej7HKcTTDoRazEPIyYvJhx1gfYj7J_OUniv4QokdE7hc33exEOogrL9UWj_jjuBeFpCIcB-9056vwLZ0yes-k63NrUJS1Hr_pp9-vbDgbDgRP8HzxSJGD8chSVStOfbU8_lhk_oekcdPmQMNTtsdNko-ys"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..LgJY9vsU_6DFyxhIu0jzqZEx7x71U4YBAkeA1adKe5jk3M8zf2JycQHXrRYcDIy_pp4xkwyJf3GWLvBVBuF3NFRxeABi3xW_70fNd_Nu_96OeJBVNz7u2D1LilfgR8S0wtkgb6hh_4ZKGq4GGqSmaxQyd9m6km4jKjygJMxjd8TqTXcm9i9B7cDDS41jI0I_ASj0t0hYVDe-kkXwmVTdMAMEflBwnAkKRLOw_92An_KlC2TXiiRbpyvIDexsHCzWW7GEnRMvg1rW7pYe5ti0I6bmWuiNSYEd2s5o94WSbHH1Pa5OtStSwdsDFDughD09IV3m9nN5SaNyJhUoEL9VB5g-1bY_usMGiM5FAjG6hAi6TfGmDgwUfZndVxlEaY4gBomADQnX25obwiMjIwkL6Dt5hO5Z00sB3_7m1dd42SGdakGtBTn9WneIzlkgg_k2_cxTCs7i4ouSr-WW8ovZvevK4tTSasILhR-lPLS3ob5wuFFCbFCBW_SfCmg7foX0iadkccg97XkXtQzfFB52fcnPER8sSn14LAtl7d3lBITC2OOB7AuxEQmvykrI4bZWjNpEpT_DnHJ9iqevgL_HMNkLWSm9ZfiXwyVO5WIMD8UJQhFfeN4RGHjk_VXcmnh9zTmrjLKlUsDLScS8I8937cm6GITNaZynJUK_tDLzrdI"
   }
 }
