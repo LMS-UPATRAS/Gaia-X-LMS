@@ -1,40 +1,75 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/gaia-x/22.10#",
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#self-description-vp",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "verifiableCredential": [
     {
-      "gx": "https://w3id.org/gaia-x/gax-trust-framework#",
-      "gax-core": "https://w3id.org/gaia-x/core#",
-      "vcard": "http://www.w3.org/2006/vcard/ns#"
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/gaia-x/22.10#",
+        {
+          "gx": "https://w3id.org/gaia-x/gax-trust-framework#",
+          "gax-core": "https://w3id.org/gaia-x/core#",
+          "vcard": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "type": "VerifiableCredential",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "issuanceDate": "2026-03-27T14:23:29Z",
+      "credentialSubject": {
+        "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+        "type": "gx:LegalPerson",
+        "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
+        "gx:legalRegistrationNumber": "EL998219694",
+        "gx:registrationNumber": "EL998219694",
+        "gx:headquarterAddress": {
+          "type": "gx:Address",
+          "gx:countryCode": "GR",
+          "gx:region": "EL63",
+          "gx:countrySubdivisionCode": "GR-G"
+        },
+        "gx:legalAddress": {
+          "type": "gx:Address",
+          "gx:countryCode": "GR",
+          "gx:region": "EL63"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-03-27T14:23:29Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..u1vSSrQ3aSEjxrRcevb-pX0MrT-VNXnOpTGijQ59IcORUuK4-nxRc5FcJx5bo17h5QowzA-yqQIX4p6ETFpTM8n513RxHxeLaZtdwdNbgUoDvXliTP7-3PhLFwFP2GYKk9nr-DjFoNoYrU9vipYFyXUOwZmf_YVm0DKL7fs6m4guP4_aGqCTqhK5owWJYJI9eI98tZqOcZKYD7tA9NzCzmCFNgvxA4L48dUPwcO1qD1_Da63t915jm4SymriKm5E8b0kB1MniTJQigvXDYcJThY23fMHJw9BgB1r8jE8zkcMsYmqMuNQZhN0y4LvlYwKCR8Df-zir5ZZv8qGc3SEW3uJqC9nOnNo4qVqjMIoNzDEsovY8PejbTzMcRu85j1c-F4_rWTM1gkyFBi-nAGjaVhvehJ9GOeXxHJugTJOrzERMRtUM6fRlsbrQLd_9H8WYxlphk1LuDJft1c_nEvAK29dzCUz0h5qm8I6w1QCNoKgY4dgbW7DowzV1aCkxB2MBp_H9Pb-Kk3NZMX0Op4irxQfjC3tiQYPDn6D3qcttISX_arkXSw73hEdU5gjJckJh1893MhEvuVA74X-eOiT-mCn0PBaxE9oXXEdv231Vlz8AmlmPWr9O3ir9T0lJ3dWDGwEfaU4Om1_cMflNh5MgxKguYR0Wsg4ZQniirRx4wQ"
+      }
+    },
+    {
+      "type": [
+        "EnvelopedVerifiableCredential",
+        "ComplianceCredentialEnvelope"
+      ],
+      "name": "Gaia-X Compliance Credential",
+      "id": "data:application/vc+jwt,eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6YmFzaWMtY29tcGxpYW5jZS1lbmdpbmU6MzAwMCIsImtpZCI6ImRpZDp3ZWI6YmFzaWMtY29tcGxpYW5jZS1lbmdpbmU6MzAwMCNYNTA5LUpXSyIsImlhdCI6MTc3NDYyMTQxMDkzNSwiZXhwIjoxNzgyMzk3NDEwOTM1LCJjdHkiOiJ2YyIsInR5cCI6InZjK2p3dCJ9.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC8yMi4xMCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OkxhYmVsQ3JlZGVudGlhbCJdLCJpZCI6Imh0dHBzOi8vbG1zLXVwYXRyYXMuZ2l0aHViLmlvL0dhaWEtWC1MTVMvLndlbGwta25vd24vY29tcGxpYW5jZS1jcmVkZW50aWFsLmp3dCIsImlzc3VlciI6ImRpZDp3ZWI6YmFzaWMtY29tcGxpYW5jZS1lbmdpbmU6MzAwMCIsInZhbGlkRnJvbSI6IjIwMjYtMDMtMjdUMTQ6MjM6MzAuOTM1WiIsInZhbGlkVW50aWwiOiIyMDI2LTA2LTI1VDE0OjIzOjMwLjkzNVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6Imh0dHBzOi8vbG1zLXVwYXRyYXMuZ2l0aHViLmlvL0dhaWEtWC1MTVMvLndlbGwta25vd24vY29tcGxpYW5jZS1jcmVkZW50aWFsLmp3dCNjcyIsImd4OmVuZ2luZVZlcnNpb24iOiIxLjAuMCIsImd4OmNvbXBsaWFudENyZWRlbnRpYWxzIjpbeyJ0eXBlIjoiZ3g6Q29tcGxpYW5jZUV2aWRlbmNlIiwiZ3g6ZGlnZXN0U1JJIjoic2hhMjU2LTBjZDM3MzhkODAwOGU2MzFhNDNiODRmZjBmOGIwYTUyNjA3MGEyZWFiMmY0N2ZiM2RkNzhjZGE1ODkyNWRkMzUiLCJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMifSx7InR5cGUiOiJneDpDb21wbGlhbmNlRXZpZGVuY2UiLCJneDpkaWdlc3RTUkkiOiJzaGEyNTYtY2ZiNTMwN2Q3ZDIzODhlOGI5OTFiYWQ1N2Q5MjdhOTRlZjAzM2JiOTc5NmU3NzAyN2MyOWRkMjFmNjczMGM3NSIsImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vR2FpYS1YLUxNUy9jcmVkZW50aWFscy9yZWdpc3RyYXRpb24tbnVtYmVyIn1dfX0.UMuWsCoXRFsXMdOcFrmAFco0hq5bQh07RuLY0APy64TgwWe6zPFTJnqJnfAX1NwZkKlpEOXfMQoEEgxLgMLhYslWM9BRxYqylg4px0HRLQEgjG7H0bmNWGXbAK3zHTv4JI3SG32ZvI7OGESQratxZsopuNSpG1xOSLHVB3P_pwEzlH3ZV-zonf4_Jr-_12NtEYVy_UxWuTmQCajCzJHXj_jx_YGF30W2Jd-4fJZ6UgMOZnsmODKQ58iglo9Hsi4IeGuMtp8D-hVPZAvKaNqRAaEPiGoqdW8DNM4VMWe7ifNCsGfkR09OgpkBr4b7evtCj57-JMpfCDKCYTuevQg8ywqhZHCShlQqO3K6hBrPQhRQbOUe-gaCmeAjPWG7qTcsCw6Iy9H7Aq7p7Zjw9XOrfk1ZZCzIQO9Rpo9Hs_zNF1yHocEZKyUiMjwNG4AXFiaRlK9bxaUR2EF1ln6aC7Oc4aVgmS7iXJK5YTQ3jaX4IUuRmJe4QjfarZ94CpZa7vZ78kKfAV-d2CXUuQM2RDLh1d-uo6piq2e7fwypv7dL_d7sfdRSp2jGNRezne_REe78y_M_h9OSQSlOKf7mMSirmkMAqo7zmbZH-ZAFAYl6EkreB_nK8q-Cl5DGnPoArutKKUT90mnfMWe1-QvYrPAkMY31yObO9G9-AgT79vqVcCw"
+    },
+    {
+      "type": [
+        "EnvelopedVerifiableCredential",
+        "MembershipCredentialEnvelope"
+      ],
+      "name": "Dataspace Membership Credential",
+      "id": "data:application/vc+jwt,eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLUxNUyIsInN1YiI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly93d3cudzMub3JnL25zL2RpZC92MSJdLCJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTAzLTI3VDE0OjIyOjQ3WiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wMy0yN1QxNDoyMjo0OVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJtZW1iZXJPZiI6ImdhaWEteC1kYXRhc3BhY2UiLCJtZW1iZXJzaGlwIjp7Im1lbWJlcnNoaXBUeXBlIjoiRnVsbE1lbWJlciIsInNpbmNlIjoiMjAyMy0wMS0wMVQwMDowMDowMFoifSwicm9sZXMiOlsiY29uc3VtZXIiXX19LCJpYXQiOjE3NzQ2MjEzNjl9.TpIZ7kn_8NNGKXMqpExKBxr8qjxcR8GExyEnFMVAVaxnzAnJrMKcbR3SPjGR0hOp0phPkwI3lTjMm4ZbprufaNcYOTo2YQslL3fMnHrw8w0sqwlWYxm3HJN_aWWTIf7u-Yo1eNg3wTyGBo8XtwRLIIWKB3ge1AmtxWmZUwIDLyDy8bTMezRL4NUWy0T9eKWbdNrysHWvzq9GunPDOn1FpWxfy9tvjon06HDSl7qjSarsRMn0fodTdoxSThzwkBn-n4_PZKatmHTrYecsZWh7ptk7YEuWIxuiglT4TON8wvHiwbUXivRaAPcrTknqkp6tKuZNpnW6wRj0RgynOcTwOugObHyXJqOumaayjcsGbnZ47os_gAtu1FYumb_9P45Dw9-SxzlGIUWmc9Tw2_Zx4HTWPwFtuZU7oMlYYv2MJvxRc6qU9uullHqb8WzMRaMF6AHJogqrWpXzBWHtB20GX7AjbZb7dMKEQ_djG0Fu9OpUVFYNzWLgmQuft3KRCppMdUcEo5yUlLX5B5naMZ2E9E8GKo0t0IEp6aKhzSP0HmM0K66M-ZHeGN3vfnWKSdu2gkP4M4lmxoEL-tNTbzzG_u4CLwPBMiEyBpFNNLpaZI9wqnxHwUQPlCwieJW2KZSnNgAc3HG43DgYdSoJro8Pxhuf0lgnkrR7PrlQWp21QVA"
     }
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "type": "VerifiableCredential",
-  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-27T14:22:48Z",
-  "credentialSubject": {
-    "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-    "type": "gx:LegalPerson",
-    "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
-    "gx:legalRegistrationNumber": "EL998219694",
-    "gx:registrationNumber": "EL998219694",
-    "gx:headquarterAddress": {
-      "type": "gx:Address",
-      "gx:countryCode": "GR",
-      "gx:region": "EL63",
-      "gx:countrySubdivisionCode": "GR-G"
-    },
-    "gx:legalAddress": {
-      "type": "gx:Address",
-      "gx:countryCode": "GR",
-      "gx:region": "EL63"
-    }
-  },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-27T14:22:48Z",
+    "created": "2026-03-27T14:23:30Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
-    "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..VSrWrQAUiO_63MeMFWzwnHhkxtphY2Ke6Ned6tOGh8ugjJpY7X4yzxqRs_tK2ZsZGv-rujtCRdXLfp27JIb4tZv_-yI8LFRHZqThYPLoRRnJxcN7S1MGDAG-Onme0fPmbr0JX6ZIN0PurLM264849ROm2hN08GMeAjruwFcgPew2GEN80ZwyH-XEd2bqKXxAw_5ek2NvTVAcVerQfWrILh3tUG-bZ_HJMx5lXJraai1YIBDhNFc5h9QiZd54SvuBltUv9W_UWQRh_9XCUDII7HQUrwTr9_RwtruhUKGgw7AC0u_CD2HyqcyabeafQHMFEHqi028tf3S7A3-OHKFgw6ULtMJyhJpii61RiN5XwdSsab4N4YqwftjbgQVKxbm9Oi_CAuDkkYsgRETAUSsFEA5KCGI1uKiqCM9ccLT4Bx3t3CVenGeWwsCvJ0GKeJ7welJ39t2N-sodcxo3JOL5Aho_I-ZgNxq4Dm0iGhEGrvEDm4KVs3FJ3g3U6unIKJAdaW5m1ZVQpl7BUaWEF0GOqwQe3XLDte-A7q83SglOj7iEpcq9qZ_nVTWdzess9DZUw4EyY0zHSVUzYUdWXNP6BStHZ3EVarDYp4D-1PxjTPWZK_jYNNSpJMGBdI_un_98qYK5NE5ZWPXuJ52FNijTMDhQZ0hcdU_7qSQ_X_IU5tM"
+    "proofPurpose": "authentication",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..mRTjKrjOtu__Y0tBrW3y8bZr5rPTTk-yH383yHqolrf4VRT5wNXjdbl_xLjkoAPnj5o1NcOWYLhQpv2_gp63GCF5F20kpHfWaQeZ97WW5G26QED6OSd6-XsPMnhoKq8xGpgZnOcF_Hsnaj9kbqU4IfFuZs7xsUmMdiSxDAGUaihF7UBV4hsIvtqK5eXg1go2zcj0NqbHHYVYuTwiEkzWznIZOk86Zl7AVyZHnNR2JIND_D7EfNSw4xdP-MWGHOI-b3KqJk4w7-oooIcLDYe2oJCYAcVUILt8UV18-_Tkr1dMwvrc_MyWlVC5KmncJdCetsJadMiqePbed8Qt2HqwfrTBXKwt2P0ueYZA6PzN3DOG4TWmcsAP8PHWLDOuIl41PQG5ZcBRgn-n0L4imcf5SyQ4pqWjMqMeFxp-BsMhbdg8jL6qg7XluMe_oYW5EEV6_ZJKRwiSKpYsbaX8s9cdSkycBw0UvhKrIojX130y_6lucpVNUnQOfVPwccxA7KyahgHGUHTsdT-JIcD_kSggka4N9JiBEgItz7_GSkCl2KjQx0BpwRgFJSbeyWMgdzHlIw8lYifGhFfMHM4p94gidrPPPzUIwLLoOSVBMfCDZWnvvlnnn8DfVZrKSu7aiNGg31vjqI0jLvPG8s_1QPhuOW-3kd16uNU9NgTltZighvs"
   }
 }
