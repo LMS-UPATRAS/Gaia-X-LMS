@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/gaia-x/development#",
+    {
+      "gx": "https://w3id.org/gaia-x/development#",
+      "vcard": "http://www.w3.org/2006/vcard/ns#"
+    }
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "type": "VerifiableCredential",
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "issuanceDate": "2026-03-31T10:15:40Z",
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+    "type": "gx:LegalPerson",
+    "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
+    "gx:legalRegistrationNumber": "EL998219694",
+    "gx:headquarterAddress": {
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63",
+      "gx:countrySubdivisionCode": "GR-G"
+    },
+    "gx:legalAddress": {
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-03-31T10:15:40Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..kNVUlmoNsx3lHDg0FRCzNvVrBgMTXnw1qg1KlNW764o1Y_-Nu5s4yEtfRrtJcidV1yBL7OzpqWlTx1bt15sFoOSWLi81DvC0ytHnwu33i-aeEiXyr4s7Pyfy3cn0a4c3rEWzLAlnT19WXwMdrRxaWGNOxFLzb-ThR2D0EHz_0q-GVQb9ddZGuupzS45PuzKubcGW1O2tlBKEDw3zz37nglKNbTSr2IMe3de-bzy5z7Y3BT_oG2RypCNU5ixQOqaFXNXKAlbgst-5c6ytn3BMEO-cPd5Z1I8zJrs7OlrMGBbOdcGq4zgtQYpTCV6dng8ZVdlhDFSnOJLkI3mm2OQ2QjEoFVHbuJx9sRcnUa7bXIPtVsYxBE8UTtt2lPSrVwFZJIqfvIL5tvqq1KMr4ydJUWnTPYkjZrWAzSElAU8xNFZcULDZ15K5XlfC5NrqxtdjCKeGjiOt-nF9LWL91_Iok_Uefi_zAgxYkRg7iIz70iJ2ux_1cRCflN-HoRS13XsvwOjLfSJ_qP6kXCvojLJGFyAvQ4zwuI5kVgYlBcEJr9zB_8liJpN9PDtlTBaSRLvXo122pdtvLYiKjD6XztqBHmcO7hayyBOMWq2deuJKqmwIj0h2bTwLuyL7lvbEQhOW92hCUzys0IBs6OSSMob_x4zsFHWWFialPbuimKcdKAM"
+  }
+}
