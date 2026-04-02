@@ -10,8 +10,8 @@
     "MembershipCredential"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-02T05:38:14Z",
-  "expirationDate": "2027-04-02T05:38:21Z",
+  "issuanceDate": "2026-04-02T05:53:04Z",
+  "expirationDate": "2027-04-02T05:53:10Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
     "memberOf": "gaia-x-dataspace",
