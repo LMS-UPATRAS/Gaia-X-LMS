@@ -9,8 +9,8 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-03T15:22:02Z",
-  "validFrom": "2026-04-03T15:22:02Z",
+  "issuanceDate": "2026-04-03T15:27:22Z",
+  "validFrom": "2026-04-03T15:27:22Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#issuer",
     "type": "gx:Issuer",
@@ -18,9 +18,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-03T15:22:02Z",
+    "created": "2026-04-03T15:27:22Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..twdd4vQApIn241Fx102XBUJShJKXOqyh_jRGLGEPfajiOqq3AmHvVzdCL0F7Q-Ho0oLo6oYCyaN_A3hLBAr1BHFBrouDplfVlcJTKwLRM6_P10TfrCQcVEAxK06G_JXDcXlZJex5djrf7aOoh3X4XrZORjgtfrMwmmz1nsG1PKQu69R_72p87rOi5v6S6RLqNAaTUKZLtvN7hchtBpvI-xoAqdGSLX0Ot4-79Cjq1WV8uJlBp3AtR43-jELJQPgM9iVNA0ZHzLtLhmlKUsz9tMY_UtpG1k9B5BeH2MelmzcwCUZiiDlwIenBliqmpyAy4tzwx6uVUxUL7VzCDFZskMkUcL1dLOHZi87E1jjy98_eHpPlG3sIj7w1qvXGzRNzQ0Y6WNyVC8tBGfNdILiZy0MU7U6y-CdwqAB7lpwiI_XDC1hSgecNKssoCbI2Ba22qA0Jef9VzdpBOXJoOPL-URYR6RadfXjWbIuLP-roh-HrRo8fazi-J4qnFwruaRw8-FUK2xJKteUeeQ2pyODFjrjXkwT-3VAb4Sw-zpYMSH7dVKak6kpDKAFm9BKVjrqtN8LFLz3xmvM_ca_saQpTy1JOrWGI3C_dkUfGq2MsgY4KVAAMa1eSON-VaZmiN7KWcrAvqZC_CMKG_b14A_x8bSBR9djTz1kwog0gzJoFgJc"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..ag1M0E-HNzTnE8WdCOTkAP0lG5t7CMRZWFjXqouKE9Pcz7cjiSpaZgVYdRFzBbjiz5HwrmKvYt_2v5LlR2r8W3sz1l-Lkv4Nlk10kiHqdAhoFDm_L0GLQv6dzfh18O0GsBmmn8GFVEjnsQL8OYmHuOFG-DQ3kLg2TflhdTnnQnWEOZZ9aIfAKW_UxgeQqyAFFqgcv0yxggYG6C9hfZB7FbrDLxK9ucn6NoaO0jaDwwYcKmzsxPHrm0lHO810PaD22CjATG4AiUVV2tGwxHcpZy9l07PW1aSnGmZdEu3PVIGlUhOpBTtXqxYLad1sp2jR_N48oAAvcMdnpK2R9HMgkmtD1HNk_dKsn_ybf-8f8HukevG_tQzdFqVwMYgz4hliuPAiv2NBKgQsalS8hMkDreSIoxJM6CWr6jg7sLqU-MruBF_B9Lv7f7111nW7nXXiT9TBatD71hyyw1L_XJwY0C0t8dEX3ejdoYmYSVbr76HWe0r_WiMd6IMNEDd50xMFm5sxHQY4XpJU_X2IRYmS5PO3EHqYuDYKudAI6RKuwC8v6Qa4WEYvniLhZRoHr71CU3VhNjRr-Xu9NcUiYpUsuKUtLy3wNtp8OkTAgPx7gc0N1OCvUckgdyuyr2lketROTdnuwMMqS5BeEgD9np4PMtmx7M40asm9DXVZqoYQUkc"
   }
 }
