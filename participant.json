@@ -13,15 +13,16 @@
     "gx:LegalPerson"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-06T14:19:32Z",
-  "validFrom": "2026-04-06T14:19:32Z",
+  "issuanceDate": "2026-04-06T14:26:11Z",
+  "validFrom": "2026-04-06T14:26:11Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#participant",
     "type": "gx:LegalPerson",
     "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
     "gx:legalRegistrationNumber": {
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#registration-number",
-      "gx:vatID": "EL998219694"
+      "gx:vatID": "EL998219694",
+      "gx:registrationNumber": "EL998219694"
     },
     "gx:headquartersAddress": {
       "type": "gx:Address",
@@ -40,9 +41,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-06T14:19:32Z",
+    "created": "2026-04-06T14:26:11Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..SBAgQxXGueOLFyCPst1YGvxiTqsIgOiZMG3OE53Jj8F0JdCUr8bVEm6G7ZwyQOfNY-GmMvN_8AR541FwfuiglySER50Cy678hgsjwIrcce2G697KWIYoB8lw4zphh3wEc7koAo2mLZSXyaK7Bp-PHyDf0LmObQQmy1SkRaaUatzmyPePnwRUeAjsoXbkaYp7nQsJIg9KCTJx2J6vYTCpJ1RdFtTYjRCpe0rJ562Mir03Vgc6CHVbE5OGLmrKCB-n4U6HQrp9CvGZNPq5ERTf5O64qmLEuoahGh7271GMcT8CrpQzOW2ubFLiq_DH3EOjDVkwskgUeKtGi6gsfShuULzVmi1W--88X4awAdgn99GaRv--Z_qSY2AnpFUj9zR61s_JR9ix_3uXgERJ9XiEr4rpZ2j1V8H8GpB2UnRGZ8IXtOab4p6pjDFNxAUU_FFGG_y37y7H1_ZtP9qFTRksVdkGhqfCjG7NgIXnguh6Q0m1L_SmeZuJzZz5hFgAW0IXHx_80rkSgltYVQOedT1g7QR9M-I5KOSR-K9hzkDH8eBQkKc0YDYwuV_9wt_mOdAwlntQBXiodh9tqK87Rci7VMv9peTyDseZLomIYl6H7nvJ-7Wb5DbgHV3XGlEYHQZ38cA9MURs2edzG4wuiB9scWLa8U62Ot2tPhRu8lk57o0"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..jrag0Dzh8hUtuIapIjbvm8jMPyu6yngCPSXh0vJGXDF8g82EH_YMpLiwYi8G6y2PCY37NhSns8V_L8wkqm2ma2LeXXPptnHfueRPM1ED5WRxZj1LWrryPO7h9qTn3rIPaW9vYcANNhryyEx91OHjAiLlf-lRzs3YqefocsvoGY9WQO_Rbbsiz7w7M51L4VbMf9i1XK7S0E17Q56LwUah0HDoEf91AFSjyw_5rpaUua9qNij-CKmZiQ34Oo7TJq_jc9vuarYyJ4ZChdVAM8R81ziSQ8zjIxzDFeE5IcN42rRjUqq48_6i70RT4PClKXeXZAo4UD1c_95VdzaGEbTRfQrkQCkBrX9oSdLq21wn4I9Ld3igM3W214Vq_TDMANAoL2O3VwegJmiIv_WI_sahy9_wzj18QJ-DK1wuko-U-lfJWA4MHQjn8ndHVXJwnOmLEwJo2APBhXv7FrMB8DSOg6elMcZDk5ByRbH30AYvzkx2u-6pif1LA-rBtMFOSzhYcuGs-ddOa6yw4kLJUw4dq9P0ZRAZxOsdxC4E2IFsgDoMwnCN7iRnEycSlgadEw9tlKgIxDgAofB9jKS2EIxtLjBF0Tb937DzL_QQskEhk7KSzlZ_i6_WkpJCIDnA1ZPfE7SCX-8fCNmQd2xnJA35p2Cd6VB9xPRL9tar4m_7hPY"
   }
 }
