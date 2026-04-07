@@ -13,8 +13,8 @@
     "gx:LegalPerson"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-07T07:06:35Z",
-  "validFrom": "2026-04-07T07:06:35Z",
+  "issuanceDate": "2026-04-07T07:16:59Z",
+  "validFrom": "2026-04-07T07:16:59Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#participant",
     "type": "gx:LegalPerson",
@@ -29,21 +29,21 @@
       "gx:countrySubdivisionCode": "GR-G",
       "gx:streetAddress": "Main Street 1",
       "gx:postalCode": "26221",
-      "gx:locality": "Brussels"
+      "gx:locality": "Patras"
     },
     "gx:legalAddress": {
       "type": "gx:Address",
       "gx:countrySubdivisionCode": "GR-G",
       "gx:streetAddress": "Main Street 1",
       "gx:postalCode": "26221",
-      "gx:locality": "Brussels"
+      "gx:locality": "Patras"
     }
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-07T07:06:35Z",
+    "created": "2026-04-07T07:16:59Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..VCiBR2X2rQrCHBiOFX6Mr9ALfj34OPT06e3xyMWOxx7BEVRqD8uHGwJO6cilHBTS1B-Q2eCqUDE3A9hNY5OXatplodaJX53jrWhNMocgEaM1XZfvyltF1-WurG3tXqMcnc_TAQAUdtGrfN8bv6hlLA3FJhzLu7csn8i2RbCajji1KRMZ_HihohGlitsQHzbynxIlpzHrAjW1hBe2PbPhjPyGXHrZkklB3Si4dxaNoitkkh-8yfQnLKD8LY7eJL2NKAXLYW1n867cwor7z1fQPAydISHHv4XtxwHQD8x1Zneml9bk4m64C0HruP45AeeG4lA175JaA-fJjnOJqav1otm3TiiNgVQmYa_8anOqvhpJyZa3ZtWEW4zgjnpyKh8mWCY5BUUU0CS6hThLA-J4VDsonKsv8L_vk7tl9N5B9Aamn_-7tNluftZLsNqnj3qsWpyn3MH0El9PlAAa-f0H2_dBziXKFFmwolo346TTJN5h9jCQzsIwqM1bADj7T_ZXW7y0Sc9P6gYe3Cmc16om1P9262S5xRbRptm7reDYUJxEy0BaA_O-3y-ZhdQtz6qVHOwQNyRpSn5Y2Tf9J6Q9ynE2r21vjcoM58rzE7CtOKaRCY0rNY-QMgoTd5-V93FhqdkXcr1Lwy0zQh34G7W_iqKEd1VaFhnr8SbBO3o_a-4"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..mp0QAMDF5vIuFN6cSf6MdLg9Evqzw2x-SFHLkLp4xZhHBB0YmEswzEh1L1tc6-i46rMxISvOXJFsH8O8v_PZ_8tDcmnhJzOdmIgD2NWMoV8TyiLpacBmkegQ2DN5TWt7ylwuECk60rckuECXQaK4ZOMjEji9iXpKQzNXyoMbkS2KFwAWipq0ruH4X_zYl-Zib9KoaEZaUIK5rhtpcMxdP4nDFjLv6kWdBxa37wAvUnFnzgIXuENQU8w2IrO9r9uBrGeu9gOLHnAiu2rNavssDLMOTGWmj_eJS2SCAoQ4UHhxsmZ0QWfk7UC3pmvkMBeaPewqSaOOCe449uJdbZeLmSJIRT_EwxE6w5Pct48Cngs0tXeyocFzTrodbS6gF1gE67Vh65N9vCzZMmnkuw-GHjXw5V-LTjdABmDMd70HeuZLPSbrGBNWuNCbsjxvm4LwihVbVTzbjqphMNouzGC7_o-nG7hjg9Tk6IBrO5mnsJCpK2J9ggXkH3-FtLEwEgivLeZPlV3R5Ui_lfKOaQo5ghCiKqyvVHWB6CRrpo86gWBz9n3W4Um63px7kFn0BlW1Dfve6KRyMFBzkSv7lvajqJG7Z5izsD-rvzfvbhPvKgEwxzY3-C1iipipz54xlEvmYGXVkXmT3HCtZbHGlphJyF0vV5aHKtXxvaXLztfafK0"
   }
 }
