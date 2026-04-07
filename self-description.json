@@ -24,27 +24,27 @@
         "gx:LegalPerson"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-04-07T07:16:49Z",
-      "validFrom": "2026-04-07T07:16:49Z",
+      "issuanceDate": "2026-04-07T07:35:03Z",
+      "validFrom": "2026-04-07T07:35:03Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#participant",
         "type": "gx:LegalPerson",
         "gx:legalName": "Laboratory of Manufacturing Systems and Automations",
-        "gx:legalRegistrationNumber": {
+        "gx:registrationNumber": {
           "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#registration-number",
           "type": "gx:RegistrationNumber",
           "gx:vatID": "EL998219694"
         },
         "gx:headquartersAddress": {
           "type": "gx:Address",
-          "gx:countrySubdivisionCode": "GR-G",
+          "gx:subdivisionCountryCode": "GR-G",
           "gx:streetAddress": "Main Street 1",
           "gx:postalCode": "26221",
           "gx:locality": "Patras"
         },
         "gx:legalAddress": {
           "type": "gx:Address",
-          "gx:countrySubdivisionCode": "GR-G",
+          "gx:subdivisionCountryCode": "GR-G",
           "gx:streetAddress": "Main Street 1",
           "gx:postalCode": "26221",
           "gx:locality": "Patras"
@@ -62,8 +62,8 @@
         "gx:Issuer"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-04-07T07:16:49Z",
-      "validFrom": "2026-04-07T07:16:49Z",
+      "issuanceDate": "2026-04-07T07:35:03Z",
+      "validFrom": "2026-04-07T07:35:03Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#issuer",
         "type": "gx:Issuer",
@@ -77,7 +77,7 @@
       "holderId": "did:web:lms-upatras.github.io:Gaia-X-LMS",
       "verifiableCredentialContainer": {
         "format": "VC1_0_JWT",
-        "rawVc": "eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLUxNUyIsInN1YiI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly93d3cudzMub3JnL25zL2RpZC92MSJdLCJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTA0LTA3VDA3OjE2OjQ5WiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wNC0wN1QwNzoxNzowNVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbWVtYmVyc2hpcCIsIm1lbWJlck9mIjoiZ2FpYS14LWRhdGFzcGFjZSIsIm1lbWJlcnNoaXAiOnsibWVtYmVyc2hpcFR5cGUiOiJGdWxsTWVtYmVyIiwic2luY2UiOiIyMDIzLTAxLTAxVDAwOjAwOjAwWiJ9LCJyb2xlcyI6WyJjb25zdW1lciJdfX0sImlhdCI6MTc3NTU0NjIyNX0.WBWuIE3z87A0cTuIBN06km9v8C1nffcUVhetU_I6nZTMTHAtTBN6u8sYEQ1sElsHwXkNdM7N_r7pllLo4t_TX7LsbZl3OAHgUvUsSjHD6Mg0HU2pYpkGnuu0NYGgoB3Epma2e5nY0tkFa9vzkVfbnS_tsBPHhmSe_jfRpyDANYi8sXKQmPgAFb3vCPDwyT8z4VBTevWd6-9au-eVqmMT-JyNY6u6wXD7inEe3iK3KzhA_erZD7Ej0_i9UjUnzqeLvj-0n6v3KYF-RpqtQkrqc2vs26RSllrveBSiPYMaBwT1HoJALhi67Ts4OWm7SxmXgTkZrcnjdmY60sO_7hpWMATsp-5lvl0AuAxHRWhmnRV9Ep-vA_YBAOvPAjcWCoXhchs7WRyhKstyBA1zwYzhssrEtR1sHn3cY4eiVDgdsPivErIax5BDP5y2f0dxZR9P6Cq95G-vUrt0-rprntfzxVo1xsjmah6uivmhsBRi-9rCorSnV55dZJL0QyZJ0S3I1BtPBg3JnAs9VTZGRbIuT1uJ9WyPxcYVe7evcbmJYYDZUi3lJnSlO0nU-jdwSqESWigbtv_d4rF4PhsScxiEr4BqkibFGhlK_-r4Rr2688SREFyr5_7SxrX80VwbFNHQyNAwBIfTgTCDc3RO0Ig0LEIzKBPp2LXZKLrXYPa9Pf0",
+        "rawVc": "eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLUxNUyIsInN1YiI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdzNpZC5vcmcvc2VjdXJpdHkvc3VpdGVzL2p3cy0yMDIwL3YxIiwiaHR0cHM6Ly93d3cudzMub3JnL25zL2RpZC92MSJdLCJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTA0LTA3VDA3OjM1OjAzWiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wNC0wN1QwNzozNTowOVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMjbWVtYmVyc2hpcCIsIm1lbWJlck9mIjoiZ2FpYS14LWRhdGFzcGFjZSIsIm1lbWJlcnNoaXAiOnsibWVtYmVyc2hpcFR5cGUiOiJGdWxsTWVtYmVyIiwic2luY2UiOiIyMDIzLTAxLTAxVDAwOjAwOjAwWiJ9LCJyb2xlcyI6WyJjb25zdW1lciJdfX0sImlhdCI6MTc3NTU0NzMwOX0.iPPnvskTgbe1YsrsfMXHmRc6U2NeBQ1hvG4AwI88XvZXrjudUZTVQqJRoWuVS-yMTjS6tzugxg0J0BnmE_EoXaJymvOZox-q5AvmrNI_5ME7ibnpsajH6OnZ7refs8TXee_psa-nyWuNOKaaljOmr8cBGVSS14EicpUSD7KnBLWhoazuu0aESaCQ1zk6Yjo-CniJycirT5dMDw5xM5JmuWj1gskQo7ztxd0U_npS21Z0y_RayM6XmZYWdo5JHnoXE5WthD6tIKWS2WjTA9Fvt6QZl_gIrLDOMlCsYUK71ZEvWrNS-1TN9efykszpzrZNq36E17xc1n7s1fV5GIOl8lF1C-KDEd9xMHBhwNz-Qo8wiqB3DEbHyv02Ox24NJqyUqwabKyKW5vZSxMelZYIVrVJoTs076lXx43z9jNWwsh5YlyUKyGp3gPF4DsihDOjOr2PhklRKtY3B6gxLYyVkc8okh55KAASTXAuIa72GKsnZpWJweECtktLrWa_XNGL9NZjMdkTBuWExgH9oWlqbDGFQY8yfUXjrRtzph04NRxKVP6-6JbIzUYLUapF2bYs7YAB6sPdPRvipejeElThlM1kAYIpNcoXniLkW6syPwfhYU62ei65WbUcwBBuNJyxqrznJKrV7jNLR42Qwb5fFCk00sjbfzzpH7JBsam64Qg",
         "credential": {
           "@context": [
             "https://www.w3.org/2018/credentials/v1"
@@ -88,7 +88,7 @@
             "MembershipCredential"
           ],
           "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-          "issuanceDate": "2026-04-07T07:16:49Z",
+          "issuanceDate": "2026-04-07T07:35:03Z",
           "credentialSubject": {
             "id": "did:web:lms-upatras.github.io:Gaia-X-LMS",
             "membership": {
