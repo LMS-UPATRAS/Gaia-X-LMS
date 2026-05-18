@@ -13,7 +13,7 @@
     "gx:VatID"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-04-20T11:21:07Z",
+  "validFrom": "2026-05-18T12:43:01Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
     "type": "BitstringStatusList2023"
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-20T11:21:07Z",
+    "created": "2026-05-18T12:43:01Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..S3DapiIQV9eTAN1_WyVEAuG9N1y2m_jl8aili78Sm9JF1tyaE6tALyjcIBixqr99Ioc7oJk9xUrkf7LronJcNhbttKq-lyDBZP71elVaSsxLTXGgAd1LdeZHnm5sagwIjbVQOHy_EauuRvYK3NEIu7P0eE_Ma6aCvN3j1eaNOx2xsTfW0TB8hb6ePTyLhJ04kr_xwRkpHiHgKZKdfhQoufBod-FTqOZCaldr-NsXKahenm5wS5cBWrWrERG4UIVX28tJVeGTEGQaqgzJ5GuWW9zMLF7nAOCINxiUYqJorVbfbOFYTNqY4b3WKPdK2gpV7OlmnG3hPEq18-gppM4zl-eMLOiY3lcQR0uf7R_uYOhYNRYpI8_QPByl5ckMv-5M85RtAIbYMn4b8PXekiqO22CO1YBdsfWCD4Ztr_BF5jGKO_SKgvTAYX08aqtpXvvcMN8VLLc5IKqKXJfVyfrh0OL3OmZ5Mr4jbw-fyfhpHKYt71LqffClHW0gMXR0r6yH6bEByrumph3OGafjZ3EknaEL4bmz3er1sTdRL89_boInXjpjPlyL5xQoS1bECWS4n2IlGqEyUF-NhK1hwpctE1Glao4Vv9hPXH5jYTNOPhh2mIHbP7QjL_9mUuxCiTsryPQ5IwdcKBvVLhFbTaG9HAcpGtPJnsVnxyIhrwwJizU"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..joaPJbUIpXUXgaCEz9M-6IfuOqtl4gLO0j_2LDIiZL24SMhIAVqu2lru1Z9JPR7zngDo4c6ksfxFiphpVFBeAlDaKsEmGQIsQJIRsqCuPQ7Mm_AGr4oCn8Eo8WClDOJR_GoDL7439WjmcQlhVqGkUWKgeI_5pFUvMJdlPXZzL71FPxBWsA4NoJmcr1X8eOEIZx8BUH5TsiskioU4lIUfkJa05TC41d6bTqzvCP6jpkn3IRMtDF4p0ahilBVySF7za_wykMYywN3JmCMxbvUK4t4YemWczMNWTeONTl4OVvcbHKAX-DIaKAF6zLZjiQqi4sN4TqCMo-4ZipeQxgUSRDmczlEGaIfhkSej8au0ruEOmkdlD9eEC_aTq1PUqFHN6fLSWfza9w8C8MuOgR_1DefV-oqNStFRnsiftqM-g00XuyNjUITLzjCSTzoMFm4JjAUUk7t1w1QR-xax4ElWAipZvWEhf4adgya5oSAXInCa49W_rqnvJDIFZCRJ5xF58T8XK0UBLovGraBuSKcupXjrL0aMfP3ptUUqKZfpGVTHP_tmYJSzMV8EQuNloeuvI-aRrUXpQAZnYdjUtIlk8qeMeZTlId9p6Xzbwd4bn6jHRCKrebwL13moLD0jqIadcR6hSXbAj2w28-dTLCfCV8RiRlBF82C7rxJfzkzcpGg"
   }
 }
