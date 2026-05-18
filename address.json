@@ -13,7 +13,7 @@
     "gx:Address"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-05-18T12:43:56Z",
+  "validFrom": "2026-05-18T13:12:26Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
     "type": "BitstringStatusList2023"
@@ -29,9 +29,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-05-18T12:43:56Z",
+    "created": "2026-05-18T13:12:26Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..P3RcyM0TfQT8h9i98Ch4sTRhee7DUAP8BjcsmyY78fEVvjHw-zDneWQyaDVuy6yS-jUvxAm1Mzhb6XN9yk5ePxvB3jmNqSW9o7IFBl0qmgzrVirm4P3OGRiTwPCTKGVA6j4sug00FvJHu2BhgTe3qmzyt3U6jGDIkQCQ7sWa7R-9d-9SP02FbcyC8XGCuFfQRI9Nbbbtpx0SG2xPvmIBFU7Vt8Z8K0pQWWiRwzUCBvyVLoqb6F-NCqNX94uQ9NEiOq4-YJrzdeQvVJPbC8RBdsoD68dOqrFAoOUo1--IDw1RYiuVLzzYMVqrLW3UDmFPczhmzjaB5wccX13c7UlU3OVEfNxGUd1d2VQVX6GishGFR1Hih2Rs-RRdRoJFDnSGxSnd6uUEKBI-yXNrlDBHBBEMY7nwIE_bWdVNq87LIlBAcjpdgePD05wndHJQ3cEwqO7yCZzjKPK-JttKZYBHj8NOpOwg2M36kr8Qsyy6MBRCotdGI-ybrpnsj7pXt4JU1QPzBfrrdRMDgmMCE2OwO2XwQLF5DbuGTvC-VuIOjYkyPu0MKqW4FxTTg6KxVglZUWq0Cf92oWtUxXwjA0X7sBWpzbpG06CYBRTkoqo30zvGC_s7pGfTkyjXZETuydpqwGZVqJbDedhikYx9Fqmj5ubpSv3MJkB87r7XmzG8VtA"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..iFe7qMyBdVNiu5ker9GD6sJr2Y-honk4eKA5BGnRnqVnWr_rL1K3KPiKSL7fzi_K5edFTiVqy1oApUCbb5NOQjO14UmdYIfmum7kJ8Pfd00Rou9GJOdKnDP67kk5E523w9gVs5ka1tGKffx_OjGi2LOBpiilArVurKyC3QFwp7HYosYHcKF7iEXntRSQ55GzUe9dNAUG85vqQ--64nuzUYacTC7Xhmj90B0DjrYkvL79j7sB8abz_PmcjvSH_H-F7k1wbh2ZZQwZm0KhnV3qsMxYbtLmk3aNO6TEBL6gsKQb5FUAQnz52cTYabBWTAUARFaY1fIGchWQ5b4HjhpUQ6sqB2Z1J6AzmQ9kOxT9cdsleqALTKQUkoblI1KxcBTsQ-HIhKjp5STazPoFFve9Of65hK9_n1BRTuJH9rIX9XWXs7gEvX_fWy_yOcvHHnsicaCVKPvx5FLA7l5J_lMGAcPoQjQq2td5ehuAMHbv3ytNz_yDyP4OHpqbyH69kMsFHjvuTaha5yqg6oD32IHGe0TD2KJuVqqUepjbublt7TvO6scVbHcqqk_DuCEjgeRUD1zVwOVJ4oCv7up-USfY5MfqPlLhyb9SgTadqu7alSNvdB-k93quyUbmIe6_fO-n1j6Rpcrp6wNBnIHBmXMGVQUl-OMVpgWcoN_EQvMYp4Q"
   }
 }

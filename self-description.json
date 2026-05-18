@@ -27,7 +27,7 @@
         "gx:LegalPerson"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-05-18T12:43:58Z",
+      "validFrom": "2026-05-18T13:12:29Z",
       "credentialStatus": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
         "type": "BitstringStatusList2023"
@@ -48,10 +48,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-05-18T12:43:58Z",
+        "created": "2026-05-18T13:12:29Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..US7jJk4sNbqW330pkC22OvRh1oxlFqeEHHAduPcV5g7B9aLqlDkGHp2Rxh0Ry94npsEPAgoIAMsX49qXFjzaFtCkKZLi8oD3L_hJ0AB6PExJs_UF-SojxOX4FOYYS6kKMdij16GOQZM8kmcwewJe2pQV5MGKbWDtGyY8BABikiYnZ6w06syaTaLQptrlLdn0HXPEPsOxYUzKnbuLCOO-AUyb-vvSb9-OfMNlisjN2EcLUBCw9kTQmGvoUf3g9pMx69F5EH1rbzTHxereSFthNGKxod6S4ILoWCd4ems_CdSjqHtNb4i7z9So6xxAdV_C1QZ098pypz2i-IH3V3cjlKCJrY9BInxLj5NXYwLMIh_mprknoTE4HObNJrWcgyi3H7PpUhDQwpAWz7P2Dj9YajagiAVyr-sRUGVpfaRcysU0W-ZMorSBIgFbe2H7v4aDXTeCp0kC0J795NJxk0z_otyWKCCzuftAYN2HXmNZfi3iaXqg0a2A5hdWZGQcWQrmHZ6XYCs7qLjMdzQ4t44Q7Jk6fiRBoPLEForBmkbSgsV83U3lOr1bXt5Adr8J8NiM1PxkKsxS5Y23URmXhGlC8Ui178BLp189hSlk3mzYuJJsKSM9MpEP4MJ0ETfnNTzBAUKpw9umSXRBDqVjdIknzAVUKdq3iVScXf5R01aIjFw"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..KnhSZERFT4QbAlTOcwC80tEGxazJvetGIiSZ4AYYUIzfzY20QQp7FbpZJ5VwRIfAicUBIgSztstpg75Mmk5KHFTHSJVuufPm6_sojSbd0WiWDRm66QTsP0azFeKMLOh9VhxQbBxKW-Huibxw1tPY8KWRGaewP7Y0YeEx2G2zKjnDlonNJOzbd4hRS3h7ixZi-wqGi32moLAmjAfc5O1oj-ZrQDHc0865Ou-kyPdLyP6FobXk1GGAhiGbM0CFsWNrQgql8eQ2vPdGdmfC2zMEodTM7ebU4K5iFukpfpQZWCgvyPnzPZ3a7KqWlPi-UwULsS3pSeZ_irgECn_lYNfeMZPKDmy02e1hT-jeS46BY-gQMA9Si1d5tESasE4n8jpP5fPYUbBPsj-aYN0Do-z74JHbbzg4w-wL6Xc_zn4ror15BUaWpjZvMXdBM3uVIpX4r5wX6VfcYpNWyHGBvh6r_BmUjHKSqhOyuPYUjE96XulELOsPAKV0fltsGm9PefUI93bWjaB_rf7nB1_mCmR7aga6cmeV9D0iX1b223_cKxcXKaOBvujxb7t2x6giFPeoDX8CEaVKcij4R3cFU5frTdGKK-BCOXvVK94toAcE0fOYSUD-w6HZcViJZPOOVcLpe11wPzHcNZ4HshaKGKtmXaWl7X_Cv5_Lx1VUzm-8PlM"
       }
     },
     {
@@ -69,7 +69,7 @@
         "gx:Address"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-05-18T12:43:56Z",
+      "validFrom": "2026-05-18T13:12:26Z",
       "credentialStatus": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
         "type": "BitstringStatusList2023"
@@ -85,10 +85,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-05-18T12:43:56Z",
+        "created": "2026-05-18T13:12:26Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..P3RcyM0TfQT8h9i98Ch4sTRhee7DUAP8BjcsmyY78fEVvjHw-zDneWQyaDVuy6yS-jUvxAm1Mzhb6XN9yk5ePxvB3jmNqSW9o7IFBl0qmgzrVirm4P3OGRiTwPCTKGVA6j4sug00FvJHu2BhgTe3qmzyt3U6jGDIkQCQ7sWa7R-9d-9SP02FbcyC8XGCuFfQRI9Nbbbtpx0SG2xPvmIBFU7Vt8Z8K0pQWWiRwzUCBvyVLoqb6F-NCqNX94uQ9NEiOq4-YJrzdeQvVJPbC8RBdsoD68dOqrFAoOUo1--IDw1RYiuVLzzYMVqrLW3UDmFPczhmzjaB5wccX13c7UlU3OVEfNxGUd1d2VQVX6GishGFR1Hih2Rs-RRdRoJFDnSGxSnd6uUEKBI-yXNrlDBHBBEMY7nwIE_bWdVNq87LIlBAcjpdgePD05wndHJQ3cEwqO7yCZzjKPK-JttKZYBHj8NOpOwg2M36kr8Qsyy6MBRCotdGI-ybrpnsj7pXt4JU1QPzBfrrdRMDgmMCE2OwO2XwQLF5DbuGTvC-VuIOjYkyPu0MKqW4FxTTg6KxVglZUWq0Cf92oWtUxXwjA0X7sBWpzbpG06CYBRTkoqo30zvGC_s7pGfTkyjXZETuydpqwGZVqJbDedhikYx9Fqmj5ubpSv3MJkB87r7XmzG8VtA"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..iFe7qMyBdVNiu5ker9GD6sJr2Y-honk4eKA5BGnRnqVnWr_rL1K3KPiKSL7fzi_K5edFTiVqy1oApUCbb5NOQjO14UmdYIfmum7kJ8Pfd00Rou9GJOdKnDP67kk5E523w9gVs5ka1tGKffx_OjGi2LOBpiilArVurKyC3QFwp7HYosYHcKF7iEXntRSQ55GzUe9dNAUG85vqQ--64nuzUYacTC7Xhmj90B0DjrYkvL79j7sB8abz_PmcjvSH_H-F7k1wbh2ZZQwZm0KhnV3qsMxYbtLmk3aNO6TEBL6gsKQb5FUAQnz52cTYabBWTAUARFaY1fIGchWQ5b4HjhpUQ6sqB2Z1J6AzmQ9kOxT9cdsleqALTKQUkoblI1KxcBTsQ-HIhKjp5STazPoFFve9Of65hK9_n1BRTuJH9rIX9XWXs7gEvX_fWy_yOcvHHnsicaCVKPvx5FLA7l5J_lMGAcPoQjQq2td5ehuAMHbv3ytNz_yDyP4OHpqbyH69kMsFHjvuTaha5yqg6oD32IHGe0TD2KJuVqqUepjbublt7TvO6scVbHcqqk_DuCEjgeRUD1zVwOVJ4oCv7up-USfY5MfqPlLhyb9SgTadqu7alSNvdB-k93quyUbmIe6_fO-n1j6Rpcrp6wNBnIHBmXMGVQUl-OMVpgWcoN_EQvMYp4Q"
       }
     },
     {
@@ -106,7 +106,7 @@
         "gx:VatID"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-05-18T12:43:57Z",
+      "validFrom": "2026-05-18T13:12:28Z",
       "credentialStatus": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
         "type": "BitstringStatusList2023"
@@ -119,10 +119,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-05-18T12:43:57Z",
+        "created": "2026-05-18T13:12:28Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..AHbvvw8WxCtmcqDvTCuw9bHsHKN_2Xdtd9R2ZIyV-NSKkShrtITMbzIgQmTEdDAp-loXb2nCoGWbSvvpZzm1XgqnFD2b_cz7rRsCjV_vA_ks9NbZVjxgzU98vZ09qwKMAwvOG-8ujFP0vNvOMg4PbsPK0F1RnFageMEUcUxqQgS_OahssW775W0aaFQcqQVp66jN9-FZ2PLNUUGFfSUf6-o0POJCm39A2OD4sw9RkonfyUuQvlqQDYjCkpyvtytQXJ9-IUf0FE8Mphy6kFR7gHGA5qmy2XSMX7kWMsRDH0bg4YH1kA8vyP427xUdqnOYBHxon8MqGEI_RzqJZCjmRDenboTC5Q8OZXq6sjCHYsc4EUnii_RhLPUFn1dMfNsC-SuKNZ1OmeowUzFzJQ7twxjp3bnagzDSLozCbSFdmxRwKY77iHlOceTe8kT_eet8ENDw3f84J9l47C9CTQFhgJURwrvGqlQndFMt98TS72yGlCga_1BmEDferzVscaR7Rnk46GvHVAo38_DiBwdX7aDdLetxr7Dz90bQrkssbdX5PY6KIoIDDV0UPIcb-slnX08IcPbCbdMxaCeNQeYgQ51UYPCGvCKZiKb0YRdYIM4JctudkH3sCCSFsmEchN5yS8GKpaJ0yb27xEAH2yKLCnUnmmohj6ac4jr1ETbRrRA"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..hHwfufnRqqoj0aHsdqNJHAm6FUL1dEvbZZGeA7fTol1YSNMSNokPM5cPrM2tmQNNmAfdYB7F-9ynwTk3LUxPeGTX049oXR1IXBJ94_KWWix_BIsurllUIooZ9eAxzrHPa-08pppBVJsvkA0Fn31Ngdk4DcqBjsGRFHscPY6QLFtP0G9999zoMJYy50051d4Ykx5Bmow6vnTzgWyM6g1efVXbNdoJPvZzKfP6-bHswEz_vAPMfpC2kjGkfQmw24R63XstdC39wnshgDgZdSxqg0vocxJfvi0T1K1pvKm0ale71rEtrfUl9obPuFsyOaAV3Pak4zFzHDHZte1cLTJZo3Ly9-N4YCSFT875dDJ9ojuhsByiqHmTFquCG1pfR7GF0mB_sF2pJx7rUczeGDOflvsjcENOyR71SX_7Juw165zA-LYmU_72mxfiZi4hR0c7AKVYOqUIHGZrzmkpwGikzoiXrq1g_y-PchTJIqycPJFKW8kVWhuRwpqevVTaYldEOYxNbJu-01qVa0ry-CzVmm3CWpVI096cT4NHT3HMYG5LX9adCHkU2R0Au-z1AUCJ7Su2Ne1WzzCj5c0fTv_cfmrlOzOn6y8cXF9MBtR2sno9HKYLhixXPtfUNXZGPSGrEinYG-4aZRcp2xRbeOosv_BEymA0ZuRZVH0m0JTyzkQ"
       }
     },
     {
@@ -136,8 +136,8 @@
         "gx:Issuer"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-05-18T12:43:59Z",
-      "validFrom": "2026-05-18T12:43:59Z",
+      "issuanceDate": "2026-05-18T13:12:30Z",
+      "validFrom": "2026-05-18T13:12:30Z",
       "credentialStatus": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
         "type": "BitstringStatusList2023"
@@ -149,10 +149,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-05-18T12:43:59Z",
+        "created": "2026-05-18T13:12:30Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..chT00HYBaCFNgAJUhb3rZeKwNK4Jq9QciufItwYq4UfM3nhUjgxZ6sTw-rWen267mKltPD-mA03n3ZRjf78N8Jh6Da8vILGQsNSlFfo3188S9wflEzRSS7GLiUw8ZDnXUZP_4E6bZ5E7sZzSdYM23nOwZKo1UdYPwWo42jc0OeNS0n7rJwABk0FKqMOunJ90IJuJGGGVUZ39ER8DZsd7VrM8sDBnAK0RctbAIlSPGu88tgTpmpbwBZ0m1UcfZzpEZ1i5B6rWLUEUScd5OD_WVrPQnSMzPucazzTNWsbMF_hQa9SxJT_YAgj0srFg7qS31sZJfBTV1GZp5wBY_z5AWwz3e10MC3TMWI9fcb_kkjrgh-_BeX0hh-NJuWgiYhckcec5E6iQlRpsF8Oc5Uc5RlLUNOF7hAI8rV63A9N2JajGI1WybGhG32KbWRa2C1vuVx_HIhdW0EqCx4JsjQYA8onbb5P_8S5UlCnyosNHkHUr0eIzAbzn0MVpGhGStzJd7oLT9yY_xz4izIdslex21osLYKWoznUpWtvfvHsbREy6YDzb92zq7niiPfNtP_T8zJJ_Q_OXTPY7_JhsuhHlVKmLxrYfH1Ck2DwKpSwzLVg6stEzRblG_W4X8gPoS4ajfF2EZOS0RtpgBiCjlEQTCE0flL7j2ar5KoyMOyFpCHw"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..q3dgxGfMiYWnJCFs-hiFALG3D0VXZE1sCAKu9C2qisr8qTpYSLaKgqrAOg-Rehy1DoINTMWbTkPmoJCp44JTLAcaefDo7JkZGk-GE8OwisdDX2tI-lHy3GxnvXVSK8tuASER5oSsXN_YDkxv2JlH5kaKH4RhPkk22iJg8MFxrE48mSvQmUOsupfe4goU5FbO-SEaV8_wdcX7ArwX6k0fJCrnJcNyYELHIyilBh-qU1Glf0_6yQoMaeC1KEVi22lv7CUVRwFScPNQFiLOLqncl_mBflqLdfU5OZMj5jniblZ-j3KOlKxhpNFv79cwAxfGJCpp6Ezn1oQXTznjiVcCNj1mbH5wz9USqPCx6aamWBPwhG5q04Ofu2nSaPxc2aDDdbWbQDISeuRsSsSdPKrikyk07_UxiEG40hJe9laiqCbbhaf2I2LdXyfa7-_HZKSzW6tVTzDCcdx7DFQZfajwBdqL9ZDZPxi6Adb0X4W34aNL8pTQ1BtoMT99R5GDpjLNKbW4z0ThWmaV7J3QRwvGuJh1UzajDXbjmoLdYgCWQH98wipRYYdvPNXelB1oUbzaawiCfjKepaW9Lv-b1-opMwuFX5OG29BEQ7KUAiaS0wzirerF6fiNHiiNS07-mnGDNp-MLpjatci_DXqbOyxlU6oRzL9E36TdrCFeM2wjuoE"
       }
     }
   ]
