@@ -13,7 +13,7 @@
     "gx:Address"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-05-18T12:43:40Z",
+  "validFrom": "2026-05-18T12:43:56Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
     "type": "BitstringStatusList2023"
@@ -29,9 +29,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-05-18T12:43:40Z",
+    "created": "2026-05-18T12:43:56Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..D08G5U7ar3GZnLAXJT722WYq-f3fUI9iDypkuH28kByyFL1bUo7JB68HtxBq1r5-lh94nm-1aOBHZk5Y2jnG0Oh8rHjutZIxvfa9q2su3sB3Xb7YJJPv9kKqa9xb4kXsSPWDBC8NGSyzWqWych17vvySb-dEbOb-QCiANMD4DD8jzZir7nlPnRfnHJ2ojBLvL6kijstib0Nb17so3UTI-VPRwaFPZuXeS4ca89zLWsNjejU5tKxjlq9HUYTdAEcRhg0P96RZ-fvpP9bMeelFvKgS-t9k7uR9SNQn7hTEK6lnv_M2tT5nLM3vcwaGFwFwRQz174b9GrZZ118G6zp59D_394pw7NA-LBGKNCTFyJrcyG6Gez1yc32m18ysyxaljCIAIpvDIwBViFNjJsEKuLKd5vJM90SkmAegwPz2rlie-9tR4JeDLrgd1p28OJO6sQYPYPGfaSNW0wnv4sCLhg5Z2_3bXNfMIlEGQo9dWIJmHBWzRyBJRDnkOT25tQ7Rce8w6WSoBhxYb2E9NMTNrkpULN_-5uSOQ9NPqW-Ab4EVLSWGYrlr0J6S7rW32qM969ZsU-tersY05d53pq_q4GairRFD5XXKs6MJA915ZDruJx4dwupeuD80cKzOguQ3b0ocr8cKRlFfxDdiC4YXiZsnW1iqy0Xg2RUKUwQXghc"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..P3RcyM0TfQT8h9i98Ch4sTRhee7DUAP8BjcsmyY78fEVvjHw-zDneWQyaDVuy6yS-jUvxAm1Mzhb6XN9yk5ePxvB3jmNqSW9o7IFBl0qmgzrVirm4P3OGRiTwPCTKGVA6j4sug00FvJHu2BhgTe3qmzyt3U6jGDIkQCQ7sWa7R-9d-9SP02FbcyC8XGCuFfQRI9Nbbbtpx0SG2xPvmIBFU7Vt8Z8K0pQWWiRwzUCBvyVLoqb6F-NCqNX94uQ9NEiOq4-YJrzdeQvVJPbC8RBdsoD68dOqrFAoOUo1--IDw1RYiuVLzzYMVqrLW3UDmFPczhmzjaB5wccX13c7UlU3OVEfNxGUd1d2VQVX6GishGFR1Hih2Rs-RRdRoJFDnSGxSnd6uUEKBI-yXNrlDBHBBEMY7nwIE_bWdVNq87LIlBAcjpdgePD05wndHJQ3cEwqO7yCZzjKPK-JttKZYBHj8NOpOwg2M36kr8Qsyy6MBRCotdGI-ybrpnsj7pXt4JU1QPzBfrrdRMDgmMCE2OwO2XwQLF5DbuGTvC-VuIOjYkyPu0MKqW4FxTTg6KxVglZUWq0Cf92oWtUxXwjA0X7sBWpzbpG06CYBRTkoqo30zvGC_s7pGfTkyjXZETuydpqwGZVqJbDedhikYx9Fqmj5ubpSv3MJkB87r7XmzG8VtA"
   }
 }

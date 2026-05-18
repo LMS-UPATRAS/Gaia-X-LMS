@@ -13,7 +13,7 @@
     "gx:VatID"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-05-18T12:43:41Z",
+  "validFrom": "2026-05-18T12:43:57Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
     "type": "BitstringStatusList2023"
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-05-18T12:43:41Z",
+    "created": "2026-05-18T12:43:57Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..G1D5BKERCcis3JRQb7jCNF3GAJuhEZ0uNshUFxNvAzxGRpk7wBNOSUfNjS__4Bb1qtMKyp9j0Yea3EiKc5H_FHifZ0qUfbs3fdZot882_tn6r4Pa7loPqc3Kf3nnpn0Wzxcoa0Wpxmab02REurQOsJZ7GpdAbf68xJ5K54-qrJKX2x8UYiBb-GrDd9VWbCNzeYLaR9llxMC61mVJmecm0XlvH0TlVeBeZhpzgTnV5E2lSwrkZJx7MZT3YSPgRQz7TxkUGh1EL0UbViNaLSOT4sMUnS1HxaCy1E_b0JES41YNhnRI4gN1OwKCLFE_D6Yp4rf7t9RcyRxvaCaCKaMuBSfBjHU7YzZa7kPYnJP4w1_n7w1oFX2E_w31WdGxrPi-t4ZuelcHYcvam214ZLjgQoZ_Yulj2Zi3W4s2W6n3vSWa9olraiN-CXwKHQHa4pbV1moLy4Mzjf3Zl95bVyu3LzJUD1rdF-PK_iL9cIBV9peFmj51qOeqDt-2OW1DK7Jid2pnDD0UAibxgMUn4_3vC-xJRt4k_tJ00jGih75uV2BIM4_ofX10Dks6eXHq1F7xstw-invBV2-xNTxs2DqIPikNXliCeVb89q2Sizzse-Ck-cKuEKPuOA7vW6houL7GhIM8eMKKkf5CFaS16Gjotgilw5kjU6f1_Coo9tqbid8"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..AHbvvw8WxCtmcqDvTCuw9bHsHKN_2Xdtd9R2ZIyV-NSKkShrtITMbzIgQmTEdDAp-loXb2nCoGWbSvvpZzm1XgqnFD2b_cz7rRsCjV_vA_ks9NbZVjxgzU98vZ09qwKMAwvOG-8ujFP0vNvOMg4PbsPK0F1RnFageMEUcUxqQgS_OahssW775W0aaFQcqQVp66jN9-FZ2PLNUUGFfSUf6-o0POJCm39A2OD4sw9RkonfyUuQvlqQDYjCkpyvtytQXJ9-IUf0FE8Mphy6kFR7gHGA5qmy2XSMX7kWMsRDH0bg4YH1kA8vyP427xUdqnOYBHxon8MqGEI_RzqJZCjmRDenboTC5Q8OZXq6sjCHYsc4EUnii_RhLPUFn1dMfNsC-SuKNZ1OmeowUzFzJQ7twxjp3bnagzDSLozCbSFdmxRwKY77iHlOceTe8kT_eet8ENDw3f84J9l47C9CTQFhgJURwrvGqlQndFMt98TS72yGlCga_1BmEDferzVscaR7Rnk46GvHVAo38_DiBwdX7aDdLetxr7Dz90bQrkssbdX5PY6KIoIDDV0UPIcb-slnX08IcPbCbdMxaCeNQeYgQ51UYPCGvCKZiKb0YRdYIM4JctudkH3sCCSFsmEchN5yS8GKpaJ0yb27xEAH2yKLCnUnmmohj6ac4jr1ETbRrRA"
   }
 }
