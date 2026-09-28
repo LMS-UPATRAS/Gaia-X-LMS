@@ -13,7 +13,7 @@
     "gx:Address"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-05-22T13:42:59Z",
+  "validFrom": "2026-09-28T08:12:10Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#status-list",
     "type": "BitstringStatusList2023"
@@ -22,16 +22,16 @@
     "id": "did:web:lms-upatras.github.io:Gaia-X-LMS#address",
     "type": "gx:Address",
     "gx:region": "EL63",
-    "vcard:street-address": "Main Street 1",
-    "vcard:postal-code": "26221",
-    "vcard:locality": "Patras",
+    "vcard:street-address": "University of Patras, Department of Mechanical Engineering and Aeronautics",
+    "vcard:postal-code": "26504",
+    "vcard:locality": "Rio, Patras",
     "gx:countryCode": "GR"
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-05-22T13:42:59Z",
+    "created": "2026-09-28T08:12:10Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..Doddvlf3h9rMAOfYUe0oVAokp3aSDmTXq_tPFqRVuoPLNQO7MNmhCitAUPxAWATt8oG3tB66yIaxkjGIM9kQ3aZ2w6eP47Nnrfr9JUkLvaIlyaIB65TOwcHiBU9-1M-AZqnzjAykQyv2Z7kclrKLyZtcZUl4lFCo9ekrLHpuMymfwcvBzbozTMTNfVM13rYR86XYr3VsbgsdrPXhY-vT-5JafguzT-h8xPHsaxcgr3yefou8lQzME_--KZWdDNL9QOfrRrm1BIxFB_IbzcUpEoucojaZtBgZMCAwR69NgOnqk5jDxzU-lgRusAW1gbt1Gkquje9eYJOmlCcAM1Q1bpIPuGO-yzJKOn8ISNvDhA3uvpPEvE5GKirEuT5azovyn-oTM7cpNDyQUis88BgRctjGShfA6LYlDH2J-tMbVLJNaDJbNpgWKvlALamlZYxGle6Qh1hvAdXBcFsBhPllU-j5Ti9wg8cVGr9yTAPQAUfd9efa7xMbN4zVTL5uBhDJ06UTdhGDViTfe8dm-k5JwSPkjMlN0VAmK3lgRYZEv2cFPiN_5vb3v9j5HMAflQax8K-q1OLBt6ZXpknAdiDgWsGbUL9QDj7bJabWpgD659TJSqmrQeMLl-kwIU50sE7rBFc9ulbVMqETsdOOAfCS8NlzOudjtBV_iFxpGNyufbY"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..bHktJz4jk0pdcmWNTT8coqDW8gR3m5ubmtxgbuIi9s3tHY8AWa-y2OEQdC-Xe34fbpKC7H4a2pX-F3Kjepz4p2mJmp9Mfo6JFzh9ePF071DHDMQsI5-F491mbVYEEWZ8G151fRi-Z6C7qdcJLb_JxQ4C5HGFYsNTlgv-6XRGfn_DJ32TOmsCeqeuoSLvdpUelQQ1Foqb2Cgg5Y4lyamzlVn65VA5d6WMqnEaI6brcb_au0qyXvSJaY-yk1q1TgVKt31nLSIeOKN1t1H4kVO8TrJCkMCSKCj4t8KjpluX_8U1r7PNALCas2EUersAwiuVlnZTLx0EslkVU1i-CDFkc5y44ev1J6m2ZG_P_Z-ZpjnyOoSvB5Ktc-3uYPLB0cj4nobFIgL4KadMquQ5Prn97cCPIPhWqZMbCyqFY7uOazU8qlGYUiURd8evJwSJEU8anTNwR6jR0ZpuvYOf5rEEXtGAg2uYu4XJ1nuYEJCxNdsoJ7h0_OvphsNqPmGZ11b1iEh8fnSq7EdoptihE5etAiadk-IvOYEcE3eJGi0P_02xuNWhErgPla28-A_btJNTYGFJ3fgNDiuuAWPOe01sumcqmhL5ynyFQNBwsFIs2gz4zaJVFi-kg3SMpQqGQ8aZAMY_E1M3-B0JtkswHbiRmwmn0zeSSahe3L68puozlH0"
   }
 }
